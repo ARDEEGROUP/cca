@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Exhibitions</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.cdnfonts.com/css/futura-pt" rel="stylesheet">
+  <script src="js/menu.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-black">
+ <div id="header"></div>
+    <div class="container mx-auto px-4 flex flex-col-reverse md:flex-row items-center justify-between gap-8 mt-8">
+    <!-- Left: Text -->
+    <div class="w-full md:w-1/2 text-center md:text-right text-white">
+      <h1 class="font-semibold text-[40px] sm:text-[60px] md:text-[72px] leading-tight">EXHIBITIONS</h1>
+    </div>
+    <!-- Right: Image -->
+    <div class="w-full md:w-1/2 flex justify-center md:justify-end">
+      <img src="images/Sketch.png" alt="Sketch" class="w-48 sm:w-64 md:w-80" />
+    </div>
+  </div>
+
+  <!-- Divider -->
+  <hr class="h-px my-8 bg-gray-700 border-0">
+
+  <!-- Exhibition Sections -->
+  <div class="space-y-20 max-w-6xl mx-auto px-4 mt-10 mb-20">
+    
+    <!-- Repeatable Section Template -->
+    <!-- SECTION START -->
+    <div class="flex flex-col md:flex-row gap-6 md:gap-10 items-start md:items-center cursor-pointer" onclick="toggleNote(1)">
+      <div class="md:w-1/4 w-full flex justify-center md:justify-end">
+        <img src="images/artix.png" alt="ArtX" class="max-w-[150px] md:max-w-full" />
+      </div>
+      <div class="md:w-1/2 w-full space-y-4">
+        <p class="text-sm text-gray-400">DATE: 2–3 AUGUST 2025</p>
+        <p class="text-sm text-gray-400">LOCATION: CLARIDGES, NEW DELHI</p>
+        <div>
+          <div class="flex justify-between items-center" onclick="toggleNote(1)">
+            <h2 class="text-lg font-semibold text-white">CURATORIAL NOTE</h2>
+            <span id="arrow1" class="text-red-500 text-2xl transform transition-transform">v</span>
+          </div>
+          <div id="noteText1" class="overflow-hidden max-h-0 transition-all duration-500 ease-in-out mt-3 text-sm text-gray-300 space-y-2">
+            <p class="text-red-500 italic">Sacred Signs “every line a prayer, every pattern a memory”</p>
+            <p>“Sacred Signs” brings together the profound visual languages of the Baiga and Gond communities—two of India’s most revered Adivasi traditions, whose art is deeply intertwined with cosmology, memory, and the spirit of the forest. In both Baiga and Gond worldviews, the act of mark-making is not merely decorative—it is devotional. For the Baiga, sacred signs emerge through godna (ritual tattooing), geometric floor drawings, and symbolic gestures that honour ancestral knowledge and connection to the earth. Gond painting, known for its intricate lines, vibrant patterns, and living narratives, maps the relationship between human, animal, and spirit worlds through a mythic visual vocabulary.
+</p>
+            	<p>Across these traditions, signs are sacred because they hold stories. They are not abstract motifs, but forms that channel belief, history, and place. Whether etched onto skin, painted on walls, or transformed into contemporary canvases, these symbols remain living testimonies of identity and resilience. This exhibition invites the viewer to encounter these signs not as distant tribal ornamentations, but as active, intelligent, and
+vital systems of seeing and being. In a world that often seeks speed and simplification, “Sacred Signs” offers an encounter with nuance, memory, and the forested depths of Indian visual heritage.
+</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SECTION END -->
+
+    <!-- Section 2 -->
+    <div class="flex flex-col md:flex-row gap-6 md:gap-10 items-start md:items-center cursor-pointer" onclick="toggleNote(2)">
+      <div class="md:w-1/4 w-full flex justify-center md:justify-end">
+        <img src="images/mumbai.png" alt="Mumbai" class="max-w-[150px] md:max-w-full" />
+      </div>
+      <div class="md:w-1/2 w-full space-y-4">
+        <p class="text-sm text-gray-400">DATE: 10–12 OCTOBER 2025</p>
+        <p class="text-sm text-gray-400">LOCATION: MUMBAI</p>
+        <div>
+          <div class="flex justify-between items-center" onclick="toggleNote(2)">
+            <h2 class="text-lg font-semibold text-white">CURATORIAL NOTE</h2>
+            <span id="arrow2" class="text-red-500 text-2xl transform transition-transform">v</span>
+          </div>
+          <div id="noteText2" class="overflow-hidden max-h-0 transition-all duration-500 ease-in-out mt-3 text-sm text-gray-300 space-y-2">
+            <p class="text-red-500 italic">Sacred Signs “every line a prayer, every pattern a memory”</p>
+            <p>This is the content for section 2...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 3 -->
+    <div class="flex flex-col md:flex-row gap-6 md:gap-10 items-start md:items-center cursor-pointer" onclick="toggleNote(3)">
+      <div class="md:w-1/4 w-full flex justify-center md:justify-end">
+        <img src="images/delhi.png" alt="Delhi" class="max-w-[150px] md:max-w-full" />
+      </div>
+      <div class="md:w-1/2 w-full space-y-4">
+        <p class="text-sm text-gray-400">DATE: 7-9 NOVEMBER 2025</p>
+        <p class="text-sm text-gray-400">LOCATION: NEW DELHI</p>
+        <div>
+          <div class="flex justify-between items-center" onclick="toggleNote(3)">
+            <h2 class="text-lg font-semibold text-white">CURATORIAL NOTE</h2>
+            <span id="arrow3" class="text-red-500 text-2xl transform transition-transform">v</span>
+          </div>
+          <div id="noteText3" class="overflow-hidden max-h-0 transition-all duration-500 ease-in-out mt-3 text-sm text-gray-300 space-y-2">
+            <p class="text-red-500 italic">Sacred Signs “every line a prayer, every pattern a memory”</p>
+            <p>This is the content for section 3...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 4 -->
+    <div class="flex flex-col md:flex-row gap-6 md:gap-10 items-start md:items-center cursor-pointer" onclick="toggleNote(4)">
+      <div class="md:w-1/4 w-full flex justify-center md:justify-end">
+        <img src="images/art.png" alt="ArtX" class="max-w-[150px] md:max-w-full" />
+      </div>
+      <div class="md:w-1/2 w-full space-y-4">
+        <p class="text-sm text-gray-400">DATE: 5–8 FEBRUARY 2026</p>
+        <p class="text-sm text-gray-400">LOCATION: NEW DELHI</p>
+        <div>
+          <div class="flex justify-between items-center" onclick="toggleNote(4)">
+            <h2 class="text-lg font-semibold text-white">CURATORIAL NOTE</h2>
+            <span id="arrow4" class="text-red-500 text-2xl transform transition-transform">v</span>
+          </div>
+          <div id="noteText4" class="overflow-hidden max-h-0 transition-all duration-500 ease-in-out mt-3 text-sm text-gray-300 space-y-2">
+            <p class="text-red-500 italic">Sacred Signs “every line a prayer, every pattern a memory”</p>
+            <p>This is the content for section 4...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div id="footer"></div>
+  
+
+
+  <!-- Responsive Footer -->
+  
+   <div id="footer"></div>
+      
+ <!-- Toggle Script -->
+<script>
+    function toggleNote(id) {
+      const note = document.getElementById(`noteText${id}`);
+      const arrow = document.getElementById(`arrow${id}`);
+
+      if (note.classList.contains("max-h-0")) {
+        note.classList.remove("max-h-0");
+        note.classList.add("max-h-[1500px]");
+        arrow.classList.add("rotate-180");
+      } else {
+        note.classList.remove("max-h-[1500px]");
+        note.classList.add("max-h-0");
+        arrow.classList.remove("rotate-180");
+      }
+    }
+  </script>
+  <script>
+  // Load header.html
+  fetch("header.html")
+    .then(res => res.text())
+    .then(data => {
+      document.getElementById("header").innerHTML = data;
+
+      // Load and run menu.js AFTER header is inserted
+      const script = document.createElement("script");
+      script.src = "js/menu.js";
+      script.onload = () => {
+        if (typeof setupMenuToggle === "function") {
+          setupMenuToggle(); // call function safely
+        }
+      };
+      document.body.appendChild(script);
+    })
+    .catch(error => console.error("Error loading header:", error));
+
+  // ✅ Load footer.html independently
+  fetch("footer.html")
+    .then(res => res.text())
+    .then(data => {
+      document.getElementById("footer").innerHTML = data;
+    })
+    .catch(error => console.error("Error loading footer:", error));
+</script>
+
+
+</body>
+</html>

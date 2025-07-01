@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Detail</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="js/students..js" defer></script> <!-- Your students data -->
+  <link rel="stylesheet" href="css/style.css">
+
+   <style>
+     @import url('https://fonts.cdnfonts.com/css/futura-pt');
+  </style>
+</head>
+<body class="bg-black">
+
+  <!-- Header (optional) -->
+  <div id="header"></div>
+
+  <!-- Back to Student List -->
+  <div class="max-w-6xl mx-auto px-4 mt-8">
+    <a href="student-bio.html" class="text-white text-sm hover:underline">&larr; Back to Student List</a>
+  </div>
+
+  <!-- Student Detail Section -->
+  <div id="student-container" class="max-w-6xl mx-auto py-12 px-4 grid grid-cols-1 text-center md:text-left md:grid-cols-1 gap-10 items-start">
+    <!-- Left Side -->
+    <div>
+      <h1 id="student-name" class="text-3xl sm:text-4xl font-bold uppercase mb-6 text-center md:text-left text-white"></h1>
+      <div id="student-artworks" class="grid grid-cols-2 sm:grid-cols-3 gap-4"></div>
+    </div>
+  </div>
+
+  <!-- Zoom Modal -->
+  <div id="zoom-modal" class="fixed inset-0 bg-black/90 flex items-center justify-center hidden z-50">
+    <div class="relative max-w-4xl w-full px-4 animate-zoomIn">
+      <button id="zoom-close" class="absolute top-4 right-6 text-white text-4xl font-bold hover:text-red-400 transition">&times;</button>
+      <img id="zoomed-image" class="w-full max-h-screen object-contain rounded-lg shadow-lg border border-gray-600" />
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div id="footer" class="mt-10"></div>
+
+  <!-- JavaScript -->
+  <script>
+    window.addEventListener('DOMContentLoaded', () => {
+      // Load header/footer (optional)
+      fetch("header.html").then(res => res.text()).then(data => {
+        document.getElementById("header").innerHTML = data;
+      }).catch(() => {});
+      fetch("footer.html").then(res => res.text()).then(data => {
+        document.getElementById("footer").innerHTML = data;
+      }).catch(() => {});
+
+      const params = new URLSearchParams(window.location.search);
+      const rawName = params.get("name");
+
+      if (!rawName) {
+        document.getElementById("student-container").innerHTML =
+          "<p class='text-red-500 text-center col-span-2'>No artist specified in URL.</p>";
+        return;
+      }
+
+      const studentsKey = decodeURIComponent(rawName).toUpperCase();
+      const normalizedStudents = {};
+      for (const key in students) {
+        normalizedStudents[key.toUpperCase()] = students[key];
+      }
+
+      const student = normalizedStudents[studentsKey];
+
+      if (!student) {
+        document.getElementById("student-container").innerHTML =
+          `<p class='text-red-500 text-center col-span-2'>Student "<strong>${studentsKey}</strong>" not found.</p>`;
+        return;
+      }
+
+      // Set name
+      document.getElementById("student-name").textContent = student.name;
+
+      // Show artworks
+      const container = document.getElementById("student-artworks");
+      if (student.artworks && student.artworks.length > 0) {
+        student.artworks.forEach((art) => {
+          const img = document.createElement("img");
+          img.src = art;
+          img.alt = student.name + " artwork";
+          img.className = "w-full object-cover rounded shadow cursor-pointer hover:scale-105 transition-transform duration-300";
+          img.addEventListener("click", () => {
+            document.getElementById("zoomed-image").src = art;
+            document.getElementById("zoom-modal").classList.remove("hidden");
+          });
+          container.appendChild(img);
+        });
+      }
+
+      // Modal close
+      document.getElementById("zoom-close").addEventListener("click", () => {
+        document.getElementById("zoom-modal").classList.add("hidden");
+      });
+
+      document.getElementById("zoom-modal").addEventListener("click", (e) => {
+        if (e.target.id === "zoom-modal") {
+          document.getElementById("zoom-modal").classList.add("hidden");
+        }
+      });
+    });
+  </script>
+
+  <!-- Zoom animation style -->
+  <style>
+    @keyframes zoomIn {
+      from { transform: scale(0.85); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
+    }
+    .animate-zoomIn {
+      animation: zoomIn 0.3s ease-out;
+    }
+  </style>
+</body>
+</html>

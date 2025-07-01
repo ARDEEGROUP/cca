@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.cdnfonts.com/css/futura-pt" rel="stylesheet">
+  <style>
+    .carousel-track {
+      display: flex;
+      gap: 1rem;
+      will-change: transform;
+      animation: scroll 20s linear infinite;
+    }
+
+    .carousel-img {
+      width: 25rem;
+      object-fit: cover;
+      flex-shrink: 0;
+    }
+
+    @media (max-width: 768px) {
+      .carousel-img {
+        width: 8rem;
+        height: 8rem;
+      }
+    }
+
+    @keyframes scroll {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-50%);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Looping Image Carousel -->
+  <div class="overflow-hidden border-y border-black py-4 bg-white">
+    <div id="carousel-wrapper" class="relative w-full">
+      <div id="carousel-track" class="carousel-track">
+        <!-- Original Images -->
+        <img src="images/one.png" class="carousel-img" />
+        <img src="images/two.png" class="carousel-img" />
+        <img src="images/three.png" class="carousel-img" />
+        <img src="images/four.png" class="carousel-img" />
+        <img src="images/five.png" class="carousel-img" />
+        <img src="images/sixth.png" class="carousel-img" />
+        <img src="images/seven.png" class="carousel-img" />
+        <img src="images/eight.png" class="carousel-img" />
+        <img src="images/nine.png" class="carousel-img" />
+        <!-- Duplicated Images for Seamless Loop -->
+        <img src="images/one.png" class="carousel-img" />
+        <img src="images/two.png" class="carousel-img" />
+        <img src="images/three.png" class="carousel-img" />
+        <img src="images/four.png" class="carousel-img" />
+        <img src="images/five.png" class="carousel-img" />
+        <img src="images/sixth.png" class="carousel-img" />
+        <img src="images/seven.png" class="carousel-img" />
+        <img src="images/eight.png" class="carousel-img" />
+        <img src="images/nine.png" class="carousel-img" />
+      </div>
+    </div>
+  </div>
+
+  <!-- Responsive Footer -->
+  <footer class="py-10 px-4 sm:px-6 lg:px-12 border-t border-black bg-white">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
+
+      <!-- Left: Logo + QR -->
+      <div class="flex flex-col items-center md:items-start gap-4 text-center md:text-left">
+        <a href="index.html"><img src="images/cca-logo.png" alt="Logo" class="h-10 mx-auto md:mx-0"></a>
+        <img src="https://www.the-qrcode-generator.com/wp-content/themes/tqrcg/new_widget/assets/templates-with-watermark/watermark-template-1.svg" alt="QR Code" class="h-24 w-24 border border-black mx-auto md:mx-0">
+      </div>
+
+      <!-- Center: Navigation -->
+      <div class="flex flex-col items-center md:items-center justify-center gap-4">
+        <ul class="flex flex-wrap justify-center gap-4 uppercase tracking-wide text-md text-black">
+          <li><a href="index.html" class="hover:text-gray-500">About Us</a></li>
+          <li><a href="gallery.html" class="hover:text-gray-500">Gallery</a></li>
+          <li><a href="artist.html" class="hover:text-gray-500">Artists</a></li>
+          <li><a href="event.html" class="hover:text-gray-500">Exhibitions</a></li>
+        </ul>
+        <h3 class="uppercase font-semibold text-sm text-black">Subscribe to our newsletter</h3>
+        <form action="https://formsubmit.co/info@centreforcultureandart.com" method="POST" class="flex flex-col sm:flex-row items-center justify-center md:justify-end gap-2 text-black">
+
+  <!-- Hidden settings -->
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_subject" value="New Newsletter Subscription">
+  <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html">
+
+  <!-- Email Input -->
+  <input 
+    type="email" 
+    name="email" 
+    placeholder="What's your email?" 
+    required 
+    class="border border-black px-3 py-1.5 rounded w-full sm:w-56"
+  >
+
+  <!-- Submit Button -->
+  <button type="submit" class="bg-black text-white px-4 py-1.5 rounded w-full sm:w-auto">
+    Subscribe
+  </button>
+</form>
+
+        <div class="text-sm space-y-1">
+          <div class="flex items-center justify-center md:justify-end gap-2 text-black">
+            <span>🕒</span>
+            <span>We work from</span>
+            <span>10:00AM – 6:00PM</span>
+          </div>
+          <div class="flex items-center justify-center md:justify-end gap-2 text-black">
+            <span>📞</span>
+            <span>+91 9818675784</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Social Links -->
+      <div class="text-center md:text-right space-y-4">
+        <div class="flex justify-center md:justify-end gap-4 pt-2">
+          <a href="https://www.instagram.com/ccabyardee">
+            <img src="https://img.freepik.com/premium-vector/instagram-vector-logo-icon-social-media-logotype_901408-392.jpg?semt=ais_hybrid&w=740" alt="Instagram" class="h-10 w-10">
+          </a>
+          <a href="http://www.linkedin.com/company/107143509/admin/analytics/followers"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMwAAADACAMAAAB/Pny7AAAAb1BMVEUKZsL///8AY8Hy9foVaMMAU7y7yucAWL6Wr933+fwAX8A3dsfI1exci84wcsYAYcAAXL9DgcwAULs/esjg6PVQhs2luuHS3vCuveKIpNiMqdsAS7rB0evl7fdwldIpbcWwxuZxnNaBndVTf8pih825u/BeAAADtUlEQVR4nO2c63biIBRGEyCJuRgw5tJobuq8/zOOdmzHKMfVNhKl69s/lRXZJcCBA3UcAAAAAAAAAAAAAAAAAAAAAAAAL41wGGOOEM+ux3QEU1kmhRNsvejZdZkKy2SdcB6GPB+KTD27OpNQve/+p90F8tk1+jFM1u6YKrX1XWOydG8o7HzVmNK42GoTbHQubhtb+KZFB66VcX0Lm8Zr9C5u21lnI4uWkLGvaURQhpRMtbJttgkSysXle8uahvUVKeMugmdX73vIVU7LvHl2RdCyuCcTWCbzm1qGpXf6TGlZn3HUndGstmw0E95AyuSFbdGZ6ojQzHUbyZ5du+8SUJ2Gb2zrMqemIeKZXFnXMI7Y6sNmvrKs+/9jq4ubw01m1yRzhqlbm3CxtdLlGAYw/2pIy+vtsyv1Y1hUVxc6rX+wLCobo9J6SHIehm3elEtl22x5hVRyvez2+67obVd5R0ZKqci+aR8A8DIwJt9htg8k7DjA9/HhxDrumYrmF2J6vlTqsoRUoug2Q1K1bZtXybDYL9No7nVEqqcfFer1hT6/F1Kt6+Fqq6dtFp0IZtRhwk+0jPYz1a7RlanSj+1ob11WulVe29RMzRboMUHlZy53zYKFfj26fv+zC6UW5P4bT5aZTTLZQdsqnzrD6YSBJTLehszxnKmceV61yTIs0CZ4x7TxLCukqTKM0duIlzazZK8nykTiC+1yIj/MkIebKKP0iXcNSWreZppM/OfeMDamdIxPnxNl7mREruGd8aaZJuNrPyVIetNNM03me+x+k0z+m2TcwrDNrDKJ4ZTvrDKu4cXNvDI7s0HNvDKJ2azPo2R41Qxvb35TkQnfE6HZddpjZNphHwfekSDdXyd7RpgN0B4i03SRko444kjlbO4cYTHbaR4gE5b9ZRVZ1NE2pdHB+QEyJbt6d6INWdrsCDBdZrjdMBTUKVY3N5r4nSxTxbd9Wu2pQYAbHc6myvBa0wuYoA5LcaP7z1NlKl0GVHhvlIzR7MBEmVA/PKmaeCoXLyzD9YefyeOSLy2Te/qnOjbK+MS8kRE7HS8ts9Bvu4qMGM5eWSYkYi1BXf54aRniXoqdMkv9QRvhETtqkIEMZCADGchABjKQgQxkIAMZyEAGMpCBDGQgAxnIQAYykIEMZCADGchAxqiM/lfH5/bJG3+kDHV6zqiMw2I96eWvsnQ1olieoe73sJR4rOF7GvIr187Pt/w/iD4g60Y81LZ/zQkAAAAAAAAAAAAAAAAAAAAAAAA8mb8FblcLaFQdlwAAAABJRU5ErkJggg==" alt="LinkedIn" class="h-10 w-10"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

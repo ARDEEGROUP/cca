@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Bio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="js/menu.js"></script>
+     <link rel="stylesheet" href="css/style.css">
+
+    <style>
+     @import url('https://fonts.cdnfonts.com/css/futura-pt');
+  </style>
+  </head>
+  <body class="bg-black">
+    <!-- Header -->
+    <div id="header"></div>
+    
+
+    <!-- Page Title -->
+    <div class="text-[48px] mt-20 mb-5 text-white text-center">Emerging Student Artists</div>
+
+    <!-- Student Categories Column -->
+    <div class="flex flex-col items-center gap-4 text-center uppercase  text-[18px] tracking-wide text-white mt-10 mb-20">
+      <a href="student-detail.html?name=KASHVIE%20SAXENA" class="hover:bg-white hover:text-black transition rounded px-2">Kashvie Saxena</a>
+      <a href="student-detail.html?name=AAHANA%20VARMA" class="hover:bg-white hover:text-black transition rounded px-2">Aahana Varma</a>
+      <a href="student-detail.html?name=SAMAYA%20BANSAL" class="hover:bg-white hover:text-black transition rounded px-2">Samaya Bansal</a>
+      <a href="student-detail.html?name=KEIRA%20SINGH" class="hover:bg-white hover:text-black transition rounded px-2">Keira Singh</a>
+      <a href="student-detail.html?name=GAYATRI%20PIA%20SINGH" class="hover:bg-white hover:text-black transition rounded px-2">Gayatri Pia Singh</a>
+      <a href="student-detail.html?name=LEIA%20FERNANDES" class="hover:bg-white hover:text-black transition rounded px-2">Leia Fernandes</a>
+      <a href="student-detail.html?name=EMILY%20ANNE%20DA%20COSTA%20FRIAS" class="hover:bg-white hover:text-black transition rounded px-2">Emily Anne Da Costa Frias</a>
+      <a href="student-detail.html?name=SANJANA%20PRABHUGAONKER" class="hover:bg-white hover:text-black transition rounded px-2">Sanjana Prabhugaonker</a>
+      <a href="student-detail.html?name=TARA%20D%E2%80%99MELLO" class="hover:bg-white hover:text-black transition rounded px-2">Tara D’Mello</a>
+      <a href="student-detail.html?name=TANEESHA%20SALKAR" class="hover:bg-white hover:text-black transition rounded px-2">Taneesha Salkar</a>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer"></div>
+ <script>
+  // Load header.html
+  fetch("header.html")
+    .then(res => res.text())
+    .then(data => {
+      document.getElementById("header").innerHTML = data;
+
+      // Load and run menu.js AFTER header is inserted
+      const script = document.createElement("script");
+      script.src = "js/menu.js";
+      script.onload = () => {
+        if (typeof setupMenuToggle === "function") {
+          setupMenuToggle(); // call function safely
+        }
+      };
+      document.body.appendChild(script);
+    })
+    .catch(error => console.error("Error loading header:", error));
+
+  // ✅ Load footer.html independently
+  fetch("footer.html")
+    .then(res => res.text())
+    .then(data => {
+      document.getElementById("footer").innerHTML = data;
+    })
+    .catch(error => console.error("Error loading footer:", error));
+</script>
+
+    <!-- JS to Load Header and Footer -->
+  </body>
+</html>

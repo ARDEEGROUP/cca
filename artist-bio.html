@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Artist Bio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="js/menu.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+     <style>
+     @import url('https://fonts.cdnfonts.com/css/futura-pt');
+  </style>
+  </head>
+  <body class="bg-black">
+    <div id="header"></div>
+    
+
+    <div class="text-[48px] mt-20 mb-5 text-white text-center">Represented Artists</div>
+
+    <!-- Artist Categories Column -->
+   <div class="flex flex-col items-center gap-4 text-center uppercase  text-[18px] tracking-wide text-white mt-10 mb-20">
+  <a href="artist-detail.html?name=JANGARH%20SINGH%20SHYAM" class="hover:bg-white hover:text-black transition rounded px-2">Jangarh Singh Shyam</a>
+  <a href="artist-detail.html?name=JODHAIYA%20BAI%20BAIGA" class="hover:bg-white hover:text-black transition rounded px-2">Jodhaiya Bai Baiga</a>
+  <a href="artist-detail.html?name=SANTOSH" class="hover:bg-white hover:text-black transition rounded px-2">Santosh KUMAR DAS</a>
+  <a href="artist-detail.html?name=PEMA" class="hover:bg-white hover:text-black transition rounded px-2">Pema FATYA</a>
+  <a href="artist-detail.html?name=BAUA%20DEVI" class="hover:bg-white hover:text-black transition rounded px-2">Baua Devi</a>
+  <a href="artist-detail.html?name=BHURI%20BAI" class="hover:bg-white hover:text-black transition rounded px-2">Bhuri Bai</a>
+  <a href="artist-detail.html?name=NARMADA" class="hover:bg-white hover:text-black transition rounded px-2">Narmada PRASAD TEKAM</a>
+  <a href="artist-detail.html?name=VENKAT%20RAMAN%20SINGH%20SHYAM" class="hover:bg-white hover:text-black transition rounded px-2">Venkat Raman Singh Shyam</a>
+  <a href="artist-detail.html?name=DURGA%20BAI%20VYAM" class="hover:bg-white hover:text-black transition rounded px-2">Durga Bai Vyom</a>
+  <a href="artist-detail.html?name=GANGA%20DEVI%20BHATT" class="hover:bg-white hover:text-black transition rounded px-2">Ganga Devi Bhatt</a>
+  <a href="artist-detail.html?name=JAPANI%20SHYAM" class="hover:bg-white hover:text-black transition rounded px-2">Japani Shyam</a>
+  <a href="artist-detail.html?name=LADO%20BAI" class="hover:bg-white hover:text-black transition rounded px-2">Lado Bai</a>
+  <a href="artist-detail.html?name=MANGALA%20BAI%20MARAVI" class="hover:bg-white hover:text-black transition rounded px-2">Mangala Bai Maravi</a>
+  <a href="artist-detail.html?name=AMIT%20DOMBHARE" class="hover:bg-white hover:text-black transition rounded px-2">Amit Dombhare</a>
+  <a href="artist-detail.html?name=BHAJJU%20SHYAM" class="hover:bg-white hover:text-black transition rounded px-2">Bhajju Shyam</a>
+  <a href="artist-detail.html?name=DHAVAT%20SINGH" class="hover:bg-white hover:text-black transition rounded px-2">Dhavat Singh</a>
+  <a href="artist-detail.html?name=SANGITA%20JOGI" class="hover:bg-white hover:text-black transition rounded px-2">Sangita Jogi</a>
+  <a href="artist-detail.html?name=MANOJ%20TEKAM" class="hover:bg-white hover:text-black transition rounded px-2">Manoj Tekam</a>
+  <a href="artist-detail.html?name=YASHPAL%20BARANDA" class="hover:bg-white hover:text-black transition rounded px-2">Yashpal Baranda</a>
+</div>
+
+
+    <div id="footer"></div>
+
+    <script>
+  // Load header.html
+  fetch("header.html")
+    .then(res => res.text())
+    .then(data => {
+      document.getElementById("header").innerHTML = data;
+
+      // Load and run menu.js AFTER header is inserted
+      const script = document.createElement("script");
+      script.src = "js/menu.js";
+      script.onload = () => {
+        if (typeof setupMenuToggle === "function") {
+          setupMenuToggle(); // call function safely
+        }
+      };
+      document.body.appendChild(script);
+    })
+    .catch(error => console.error("Error loading header:", error));
+
+  // ✅ Load footer.html independently
+  fetch("footer.html")
+    .then(res => res.text())
+    .then(data => {
+      document.getElementById("footer").innerHTML = data;
+    })
+    .catch(error => console.error("Error loading footer:", error));
+</script>
+
+  </body>
+</html>
