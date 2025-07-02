@@ -29,61 +29,45 @@
 
       <!-- Contact Form (Right) -->
       <div>
-        <form id="contact-form" class="space-y-5">
-          <input type="text" name="Name" placeholder="Name" required
-                 class="w-full border-b border-gray-300 focus:outline-none py-2 placeholder-gray-500" />
-          <input type="text" name="Surname" placeholder="Surname" required
-                 class="w-full border-b border-gray-300 focus:outline-none py-2 placeholder-gray-500" />
-          <input type="tel" name="Phone" placeholder="Phone" required
-                 class="w-full border-b border-gray-300 focus:outline-none py-2 placeholder-gray-500" />
-          <input type="email" name="Email" placeholder="Email" required
-                 class="w-full border-b border-gray-300 focus:outline-none py-2 placeholder-gray-500" />
-          <textarea name="Enquiry" placeholder="Your enquiry" required
-                    class="w-full border-b border-gray-300 focus:outline-none py-2 placeholder-gray-500 resize-none h-24"></textarea>
+       <form action="https://formsubmit.co/info@centreforcultureandart.com" method="POST" class="space-y-5">
+  <!-- DO NOT include _captcha=false to enable CAPTCHA -->
+  <input type="hidden" name="_next" value="https://centreforcultureandart.com/thank-you.html">
+  <input type="hidden" name="_template" value="table">
 
-          <!-- Buttons -->
-          <div class="flex flex-wrap gap-4 pt-2">
-            <!-- Submit Button -->
-            <button type="submit"
-                    class="bg-black text-white px-6 py-2 rounded-full font-semibold hover:bg-gray-800 transition">
-              SUBMIT
-            </button>
+  <input type="text" name="Name" placeholder="Name" required
+         class="w-full border-b border-gray-300 focus:outline-none py-2 placeholder-gray-500" />
+  <input type="text" name="Surname" placeholder="Surname" required
+         class="w-full border-b border-gray-300 focus:outline-none py-2 placeholder-gray-500" />
+  <input type="tel" name="Phone" placeholder="Phone" required
+         class="w-full border-b border-gray-300 focus:outline-none py-2 placeholder-gray-500" />
+  <input type="email" name="Email" placeholder="Email" required
+         class="w-full border-b border-gray-300 focus:outline-none py-2 placeholder-gray-500" />
+  <textarea name="Enquiry" placeholder="Your enquiry" required
+            class="w-full border-b border-gray-300 focus:outline-none py-2 placeholder-gray-500 resize-none h-24"></textarea>
 
-            <!-- WhatsApp Button -->
-            <a href="https://wa.me/9818675784?text=Hi%20I%20want%20to%20enquire%20about%20your%20services"
-               target="_blank"
-               class="flex items-center gap-2 px-5 py-2 border border-green-500 text-green-600 rounded-full hover:bg-green-50 transition">
-              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 fill-current" viewBox="0 0 32 32">
-                <path d="M16.004 2.99c-7.391 0-13.004 5.617-13.004 13.009 0 2.295.617 4.526 1.783 6.49l-1.891 6.895 7.07-1.856c1.862 1.012 3.982 1.547 6.043 1.547h.002c7.387 0 13.004-5.616 13.004-13.007 0-3.486-1.359-6.766-3.826-9.234-2.469-2.467-5.75-3.844-9.181-3.844zM16 0c4.288 0 8.298 1.67 11.313 4.686 3.016 3.018 4.687 7.026 4.687 11.313 0 8.836-7.164 16-16 16-2.388 0-4.715-.525-6.857-1.535l-9.143 2.405 2.45-8.943c-1.26-2.253-1.917-4.789-1.917-7.327 0-8.836 7.164-16 16-16zm7.379 21.066c-.254-.127-1.508-.743-1.74-.826s-.402-.127-.571.127-.656.826-.805.998-.297.191-.55.063-1.074-.395-2.046-1.26c-.757-.674-1.266-1.508-1.414-1.762s-.015-.391.112-.518c.113-.112.254-.293.382-.439.127-.146.169-.254.254-.423.084-.17.042-.318-.021-.446s-.571-1.377-.782-1.883c-.206-.494-.415-.427-.571-.435-.146-.006-.313-.008-.48-.008s-.442.063-.673.295c-.23.23-.886.865-.886 2.104 0 1.24.906 2.437 1.033 2.604.127.17 1.78 2.717 4.318 3.81.604.26 1.074.414 1.441.529.605.192 1.157.165 1.59.1.485-.072 1.508-.616 1.721-1.211.212-.593.212-1.101.148-1.211-.063-.109-.231-.172-.485-.299z"/>
-              </svg>
-              Chat with us
-            </a>
-          </div>
+  <!-- Buttons -->
+  <div class="flex flex-wrap gap-4 pt-2">
+    <button type="submit"
+            class="bg-black text-white px-6 py-2 rounded-full font-semibold hover:bg-gray-800 transition">
+      SUBMIT
+    </button>
 
-          <!-- Success Message -->
-          <p id="success-message" class="text-green-600 font-semibold pt-4 hidden">
-            ✅ Your form has been submitted successfully!
-          </p>
-        </form>
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/9818675784?text=Hi%20I%20want%20to%20enquire%20about%20your%20services"
+       target="_blank"
+       class="flex items-center gap-2 px-5 py-2 border border-green-500 text-green-600 rounded-full hover:bg-green-50 transition">
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 fill-current" viewBox="0 0 32 32">
+        <path d="..."/>
+      </svg>
+      Chat with us
+    </a>
+  </div>
+</form>
       </div>
     </div>
   </div>
 
-  <script>
-    const form = document.getElementById("contact-form");
-    const message = document.getElementById("success-message");
-
-    form.addEventListener("submit", function (e) {
-      e.preventDefault(); // Stop actual submission for demo
-      message.classList.remove("hidden");
-
-      // Optional: also trigger mailto link if needed
-      window.location.href = "mailto:info@centreforcultureandart.com";
-
-      // Optional: Clear form
-      form.reset();
-    });
-  </script>
+  
 
 </body>
 </html>
