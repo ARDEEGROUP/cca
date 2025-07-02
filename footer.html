@@ -10,7 +10,8 @@
       display: flex;
       gap: 1rem;
       will-change: transform;
-      animation: scroll 20s linear infinite;
+      animation: scroll 40s linear infinite;
+      width: max-content;
     }
 
     .carousel-img {
@@ -20,10 +21,10 @@
     }
 
     @media (max-width: 768px) {
-      .carousel-img {
-        width: 8rem;
-        height: 8rem;
-      }
+      .carousel-track {
+      animation: scroll 30s linear infinite;
+    }
+
     }
 
     @keyframes scroll {
