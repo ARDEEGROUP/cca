@@ -200,7 +200,7 @@ const artists = {
   "YASHPAL BARANDA": {
     name: "YASHPAL BARANDA",
     title: "Born c. 1990s, Madhya Pradesh",
-    image: "images/yash.png",
+    image: "images/yas.jpeg",
     bio: "Yashpal’s art pulses with movement—animals in mid-flight, forests flowing like rivers, stories rising like smoke. With a strong foundation in Gond motifs, he uses swirling lines and fantastical forms to express his inner world. As a young artist, he draws inspiration from the memory of ancestors, the rhythms of nature, and the search for self in a world that is changing fast.",
   },
 
