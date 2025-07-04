@@ -86,12 +86,17 @@
           <li><a href="event.html" class="hover:text-gray-500">Exhibitions</a></li>
         </ul>
         <h3 class="uppercase font-semibold text-sm text-black">Subscribe to our newsletter</h3>
-        <form action="https://formsubmit.co/info@centreforcultureandart.com" method="POST" class="flex flex-col sm:flex-row items-center justify-center md:justify-end gap-2 text-black">
 
-  <!-- Hidden settings -->
-  <input type="hidden" name="_captcha" value="false">
-  <input type="hidden" name="_subject" value="New Newsletter Subscription">
-  <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html">
+<form action="https://api.web3forms.com/submit" method="POST" class="flex flex-col sm:flex-row items-center justify-center md:justify-end gap-2 text-black">
+
+  <!-- Web3Forms Access Key -->
+  <input type="hidden" name="access_key" value="4745d0eb-c606-4690-8fb5-c3f7979e9fce">
+
+  <!-- Subject line (optional) -->
+  <input type="hidden" name="subject" value="New Newsletter Subscription">
+
+  <!-- Redirect after submission -->
+  <input type="hidden" name="redirect" value="https://centreforcultureandart.com/thank-you.html">
 
   <!-- Email Input -->
   <input 
@@ -107,6 +112,8 @@
     Subscribe
   </button>
 </form>
+
+
 
         <div class="text-sm space-y-1">
           <div class="flex items-center justify-center md:justify-end gap-2 text-black">
