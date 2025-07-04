@@ -192,7 +192,7 @@ const artists = {
   "MANOJ TEKAM": {
     name: "MANOJ TEKAM",
     title: "Born 1985, Dindori, Madhya Pradesh",
-    image: "images/manoj.jpg",
+    image: "images/manoj.jpeg",
     bio: "With roots deep in the Gond tradition, Manoj Tekam paints not just what he sees but what he remembers and questions. His compositions—often large, patterned, and immersive—convey themes of ecological erosion and cultural dislocation. Yet, they always hold onto the sacred patterns of the past. Manoj is part of a generation that is not just preserving tradition, but also pushing it into conversations about the future.",
   },
 
