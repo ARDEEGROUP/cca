@@ -123,8 +123,6 @@ const artists = {
     "3. This black-on-white painting captures a whimsical rural moment, where human and animal figures interact in harmony. Rendered in bold silhouettes, cows, birds, and two joyful human figures form a circular composition, evoking unity and mutual dependence. Lado Bai’s minimal, almost stencil-like style retains a raw vitality, speaking of innocence, rhythm, and the everyday bonds shared between people and animals in tribal life.",
     "4.  Set against a deep blue background, this dynamic composition overflows with movement and layered storytelling. Figures climb ladders, swing from trees, dance, and prepare food—suggesting a festival or mythological event. With her signature dotted forms and earthy palette, Lado Bai builds a chaotic yet celebratory scene full of human expression and cultural memory. The work serves as a living archive of Bhil oral tradition and shared community life.",
 
-
-
     ],
   paintings: ["images/ladoone.jpg" , "images/ladotwo.png" , "images/ladothree.png"]
   },
