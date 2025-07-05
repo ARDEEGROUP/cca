@@ -4,7 +4,7 @@ const artists = {
     title: "Mandla, Madhya Pradesh, 1962–2001",
     image: "images/jangarh.jpg",
     bio: ["Born into the Pardhan Gond community, Jangarh Singh Shyam's life changed when he was discovered by the artist J. Swaminathan. From humble beginnings, he became the torchbearer of a whole new genre of contemporary tribal art, now known as “Jangarh Kalam.” His vivid imagination was rooted in forest stories, spirits, and animals of his homeland. He gave form to his inner world with mythic resonance and emotional depth, inspiring generations of artists in and beyond his community.",
-    "1. This painting by Jangarh Singh Shyam depicts a stylized animal, rendered in his distinctive Pardhan Gond art style. The creature is filled with intricate patterns of small, concentric, arc-shaped dots in shades of red, blue, and white, creating a mesmerizing texture and a sense of movement within its form. A single, prominent eye stands out against the patterned body, and small red tusks are visible near its snout, indicating its animalistic nature. The artwork is set against a plain, light background, allowing the vibrant colors and detailed patterns of the animal to be the sole focus.  ",
+    "1. This painting by Jangarh Singh Shyam depicts a stylized pig, rendered in his distinctive Pardhan Gond art style. The creature is filled with intricate patterns of small, concentric, arc-shaped dots in shades of red, blue, and white, creating a mesmerizing texture and a sense of movement within its form. A single, prominent eye stands out against the patterned body, and small red tusks are visible near its snout, indicating its animalistic nature. The artwork is set against a plain, light background, allowing the vibrant colors and detailed patterns of the animal to be the sole focus.  ",
     ],
   },
 
@@ -88,10 +88,8 @@ const artists = {
     image: "images/ganga.jpeg",
     bio: [
     "Ganga Devi Bhatt’s studio practice is quiet, contemplative, and deeply sensory. A self-taught artist with a fascination for materials, her works range from etched wood panels to delicate watercolors. Inspired by the changing light on leaves, the carvings in temples, and the memory of village sounds, her art bridges craftsmanship and meditation. Whether chiseling or painting, she treats each stroke as a gesture of reflection and care.",
-    "1. This painting depicts a vibrant scene of rural or domestic life, featuring several stylized human figures interacting. The figures are rendered with simple forms and bold colors, characteristic of folk art. There are adults and children, engaged in activities such as gathering foliage or produce, and one figure appears to be carrying a bundle. A dwelling or structure is visible in the background, along with a tree, suggesting an outdoor setting. The color palette is rich and earthy, with blues, yellows, browns, and greens dominating.",
-    "2. This painting presents a busy outdoor scene, a market or a gathering, under a canopy of lush green trees. Multiple human figures, rendered in a simplified, colorful style, are interacting with each other and with animals, which appear to be oxen or cattle. The ground is dotted with yellow shapes, perhaps representing fallen fruit or produce. The figures are engaged in various activities, and the overall composition conveys a sense of communal activity and connection with nature. The use of dark outlines and vibrant, flat colors is prominent.",
-    "3. This portrait-style painting features a central figure, a woman, with striking features and a calm expression. The figure's face is yellow with prominent blue shading, and she appears to be carrying something on her head, a basket or pot, suggested by the shape above her head. Her attire is simple, in shades of green and yellow, and there's a textured background suggesting either a wall or a sky. The style emphasizes the character's facial features and the stoic nature of her pose.",
-
+    "1. This painting captures a vibrant glimpse into rural or domestic life, filled with stylized human figures engaged in everyday activities. Adults and children are depicted gathering foliage or produce, while one figure carries a bundle, suggesting scenes of labor and care. A tree and a modest dwelling in the background set the scene outdoors, grounding the figures in a lived, natural environment. Rendered in bold outlines and earthy hues—blues, browns, yellows, and greens—the composition reflects the simplicity and warmth of folk traditions, celebrating community and connection to land.",
+"2. Set beneath a canopy of lush green trees, this dynamic painting portrays a bustling market or communal gathering. Human figures and animals—likely oxen or cattle—interact in a lively outdoor space. Yellow shapes scattered across the ground suggest fallen fruit or produce, reinforcing the agrarian setting. Executed in a vibrant folk style with flat colors and strong outlines, the figures are shown in motion, engaged in trade, conversation, or work. The scene radiates a sense of collective rhythm, rooted in nature and shared experience.",
 
     ],
 
@@ -135,8 +133,8 @@ const artists = {
     "Born into a family where oral tales and rituals were a way of life, Mangala Bai Maravi paints from a wellspring of ancestral knowledge. Her canvases echo the pulse of the forest, the cycle of seasons, and the unseen world of spirits. Her use of bright colors and repeating motifs creates a rhythm that feels both ancient and fresh. Her art speaks softly but with immense presence—a bridge between tradition and self-expression.",
     "1. This artwork by Mangala Bai Maravi, a Baiga tattoo artist, features two large, stylized human figures rendered in black ink on white paper, echoing the traditional patterns of Baiga tattoos. The figures are depicted frontally, showcasing intricate geometric and lineal designs that fill the body outlines, mimicking the art of skin tattooing. The figure on the left has a detailed face with eyes, nose, and mouth, and is adorned with patterns resembling necklaces and chest tattoos. Its limbs and torso are filled with various stripes, zigzags, and concentric shapes. The figure on the right, shown from the back, has a solid black head and its body is similarly embellished with a different set of intricate linear and geometric motifs, suggesting hair patterns and back tattoos. The pieces are a striking representation of the cultural significance and beauty of Baiga tattoo art, translated onto paper.",
 
-
     ],
+    paintings: ["images/manglaone.jpg",]
     
   },
 
@@ -146,9 +144,7 @@ const artists = {
     image: "images/amit.jpg",
     bio: [
     "Raised in a Warli village where stories are drawn on walls during rituals, Amit Dombhare’s life is steeped in storytelling. But instead of staying in the past, he uses Warli’s minimalist lines to comment on modern life—urbanization, migration, and change. His works are clean, monochromatic, and deeply emotional, capturing the fragility of tradition in a fast world. For Amit, drawing is a form of storytelling that never needs translation.",
-    "1. This artwork by Amit Dombhare, a Warli artist, presents a striking and intricate composition primarily focused on a large, central circular motif. The painting is rendered in a limited palette, with a dark, earthy background providing a strong contrast to the lighter, detailed elements.",
-    "The central circle is filled with a dense, swirling pattern created by countless small dots or short strokes, often arranged in concentric or spiraling formations, a hallmark of Warli art's intricate detailing. This repetitive dot-work creates a mesmerizing texture and suggests movement or energy contained within the circle. Above and below this central motif, there are two distinct, solid white or light-colored shapes, representing celestial bodies like the sun and moon, or symbolic elements. While traditional Warli art often features stick figures and scenes of daily life, this piece emphasizes abstract pattern and symbolism, showcasing a contemporary interpretation within the Warli style. ",
-
+    "1. This Warli artwork by Amit Dombhare features a captivating spiral of birds in motion, meticulously painted in white on a textured cow dung base. The rhythmic formation creates a sense of dynamic movement and harmony, as if the flock is caught mid-flight in a cosmic dance. Anchored by a radiant sun above and a crescent moon below, the composition reflects themes of continuity, balance, and the interconnectedness of nature. Dombhare’s use of traditional Warli techniques imbues the work with both ancestral memory and contemporary resonance. ",
 
     ],
 
@@ -160,9 +156,7 @@ const artists = {
     image: "images/bhajju.jpg",
     bio: [
     "Bhajju’s journey from a village boy to an internationally acclaimed artist began when he illustrated his travels to London through a tribal lens—leading to his iconic The London Jungle Book. With a poetic eye, he reimagines cities, memories, and dreams through the symbols of Gond art. His animals become metaphors, his trees become timelines. For Bhajju, art is a diary of places seen, hearts felt, and identities carried.",
-    "1. This artwork by Bhajju Shyam, a well-known tribal artist, features a vibrant and imaginative scene, characteristic of the Pardhan Gond art style. The painting is dominated by a large, dynamic red winged horse, or Pegasus-like creature, soaring above a structure. The horse's wings are green, and it carries a small, blue, house-like object on its head.",
-    "Below the flying horse, a group of stylized human figures, rendered in shades of blue and yellow, are depicted in various poses that suggest dance, celebration, or interaction. They are positioned in front of what appears to be a striped building or tent structure. The background is a dark blue, while the lower section features a pattern in red and yellow triangles, adding to the festive and mythical atmosphere of the composition. The overall impression is one of movement, wonder, and a narrative drawn from tribal folklore or personal vision.",
-
+    "1. In this vivid composition, Bhajju Shyam depicts a dramatic and surreal scene rooted in Gond mythology. A red, winged horse soars across a dark blue sky, gripping a man in its mouth—a striking image of power, mystery, and divine intervention. Below,human figures in blue and yellow stand before a striped structure, reaching upward with outstretched arms, their gestures filled with urgency and awe. The lower edge, patterned with red and yellow triangles, adds to the rhythmic energy of the scene. With his signature use of bold colors and intricate detailing, Shyam crafts a powerful visual tale that blurs the line between folklore and imagination. ",
     ],
 
   },
@@ -184,21 +178,38 @@ const artists = {
     name: "SANGITA JOGI",
     title: "Born 1994, Rajasthan",
     image: "images/sangitatwo.png",
-    bio: "Born to artists Ganesh and Teju Jogi, Sangita grew up watching stories take shape in black ink. But unlike her parents, she began drawing her own stories—about migration, city life, loneliness, and love. Her work is intensely personal, drawn with the same fine pens but filled with modern metaphors. As a woman navigating tradition and change, Sangita’s art gives voice to the silent struggles and joys of everyday life.",
+    bio: [
+    "Born to artists Ganesh and Teju Jogi, Sangita grew up watching stories take shape in black ink. But unlike her parents, she began drawing her own stories—about migration, city life, loneliness, and love. Her work is intensely personal, drawn with the same fine pens but filled with modern metaphors. As a woman navigating tradition and change, Sangita’s art gives voice to the silent struggles and joys of everyday life.",
+    "1. This intricate black-and-white drawing by Sangita Jogi offers a vibrant, rhythmic portrayal of life inside a bustling tailoring workshop. Rendered in the signature linear style of Jogi art, the composition features a dense grid of scenes that celebrate the labor, skill, and community within a tailoring ecosystem—predominantly led by women.",
+    "Figures are shown cutting fabric, stitching garments, ironing, measuring, and selling clothes. Each vignette is framed by tools of the trade: sewing machines, scissors, threads, and fans—creating a repetitive yet lively pattern. The artist captures gestures of collaboration and care, with women supporting one another, tending to children, and working with quiet dignity. Despite its monochrome palette, the artwork pulses with movement and narrative detail, transforming everyday labor into a powerful visual archive.",
+    "By documenting her world with precision and empathy, Sangita Jogi transforms a workspace into a living testimony of women's resilience, creativity, and collective enterprise.",
+
+    ],
   },
 
   "MANOJ TEKAM": {
     name: "MANOJ TEKAM",
     title: "Born 1985, Dindori, Madhya Pradesh",
     image: "images/manoj.jpeg",
-    bio: "With roots deep in the Gond tradition, Manoj Tekam paints not just what he sees but what he remembers and questions. His compositions—often large, patterned, and immersive—convey themes of ecological erosion and cultural dislocation. Yet, they always hold onto the sacred patterns of the past. Manoj is part of a generation that is not just preserving tradition, but also pushing it into conversations about the future.",
+    bio:[
+     "With roots deep in the Gond tradition, Manoj Tekam paints not just what he sees but what he remembers and questions. His compositions—often large, patterned, and immersive—convey themes of ecological erosion and cultural dislocation. Yet, they always hold onto the sacred patterns of the past. Manoj is part of a generation that is not just preserving tradition, but also pushing it into conversations about the future.",
+     "1. The animal is outlined in bold black and filled with intricate patterns that draw the viewer’s attention to its elegant form. The upper body and limbs are adorned with fine, flowing lines, while the large central belly contrasts with a dense texture of dark, scale-like or dotted motifs. This interplay of patterns creates a striking visual rhythm across the composition. Set against a plain, light background, the detailed rendering of the animal becomes the singular focal point. The artwork evokes a sense of grace and harmony with nature, expressed through a refined and stylized artistic language.",
+
+    ],
   },
 
   "YASHPAL BARANDA": {
     name: "YASHPAL BARANDA",
     title: "Born c. 1990s, Madhya Pradesh",
     image: "images/yas.jpeg",
-    bio: "Yashpal’s art pulses with movement—animals in mid-flight, forests flowing like rivers, stories rising like smoke. With a strong foundation in Gond motifs, he uses swirling lines and fantastical forms to express his inner world. As a young artist, he draws inspiration from the memory of ancestors, the rhythms of nature, and the search for self in a world that is changing fast.",
+    bio: [
+    "Yashpal’s art pulses with movement—animals in mid-flight, forests flowing like rivers, stories rising like smoke. With a strong foundation in Gond motifs, he uses swirling lines and fantastical forms to express his inner world. As a young artist, he draws inspiration from the memory of ancestors, the rhythms of nature, and the search for self in a world that is changing fast.",
+    "1. This vibrant painting by Yashpal Baranda, a contemporary Bhil artist, weaves together mythology and everyday symbolism through bold forms and intricate patterns. Set against a richly textured yellow-brown background, the composition features stylized figures and animals central to Bhil storytelling.",
+    "On the left, two human faces—one blue-skinned with textured hair and another lighter in tone—are rendered with simplified features and vivid red lips. A large white bull-like creature, adorned with detailed dot patterns, anchors the right side. Beside it sits a crowned, serene figure, while a horned, bearded figure stands nearby, adding to the mythic narrative. Symbolic vessels at the bottom hint at ritual or offering.",
+    "Baranda’s signature dot work and earthy palette create a powerful visual rhythm, merging traditional Bhil motifs with a contemporary, expressive style.",
+
+
+    ],
   },
 
   "SANTOSH": {
