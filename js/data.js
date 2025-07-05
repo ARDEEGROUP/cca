@@ -205,7 +205,7 @@ const artists = {
     bio: [
     "Yashpal’s art pulses with movement—animals in mid-flight, forests flowing like rivers, stories rising like smoke. With a strong foundation in Gond motifs, he uses swirling lines and fantastical forms to express his inner world. As a young artist, he draws inspiration from the memory of ancestors, the rhythms of nature, and the search for self in a world that is changing fast.",
     "1. This vibrant painting by Yashpal Baranda, a contemporary Bhil artist, weaves together mythology and everyday symbolism through bold forms and intricate patterns. Set against a richly textured yellow-brown background, the composition features stylized figures and animals central to Bhil storytelling.",
-    "On the left, two human faces—one blue-skinned with textured hair and another lighter in tone—are rendered with simplified features and vivid red lips. A large white bull-like creature, adorned with detailed dot patterns, anchors the right side. Beside it sits a crowned, serene figure, while a horned, bearded figure stands nearby, adding to the mythic narrative. Symbolic vessels at the bottom hint at ritual or offering.",
+    "On the left, two human faces—one blue-skinned with textured hair and another lighter in tone—are rendered with simplified features and vivid red lips. A large white bull-like creature, adorned with detailed dot patterns, anchors the right side. Beside it sits a crowned, serene figure, while a horned, bearded figure stands nearby, adding to the mythic narrative.",
     "Baranda’s signature dot work and earthy palette create a powerful visual rhythm, merging traditional Bhil motifs with a contemporary, expressive style.",
 
 
