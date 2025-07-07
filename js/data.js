@@ -215,13 +215,13 @@ const artists = {
   "SANTOSH": {
     name: "SANTOSH KUMAR DAS",
     title: "Born 1965, Bihar, India",
-    image: "images/sant.png",
+    image: "images/sant.jpg",
     bio: [
       "Santosh Kumar Das grew up in the heart of Mithila, surrounded by the intricate ritual paintings of his mother and the stories that women told through their art. But as a young man, he was equally drawn to the world beyond—books, politics, poetry, and ink. In his hands, the Madhubani tradition evolved, not abandoned but sharpened. He replaced color with stark black ink, reimagining the form to express protest, devotion, and inner reflection. His works carry the grace of the old and the urgency of the now—Sita weeps, Gandhi meditates, and villages burn under the same fine lines. For Das, painting is both memory and mirror—a way to stay rooted while looking the world in the eye.",
-      "1. This artwork by Santosh Kumar Das, a renowned tribal artist, depicts a highly stylized tree form, rendered with intricate detail. The tree appears to be split into two main sections: a large, rounded canopy at the top and a similarly shaped base, or root system, below. Both sections are densely filled with myriad small, individual markings, dots or tiny lines, in black and white, giving them a textured, almost organic appearance. A striking red element, reminiscent of a face or mask with a flowing form, is centrally positioned between the two tree sections, injecting a vibrant splash of color and a focal point into the otherwise monochromatic composition. Below this red element, dark, organic shapes resembling roots or branches extend downwards. The overall impression is one of delicate detail and symbolic representation, touching upon themes of nature, life, and interconnectedness, common in tribal art.",
-
-
+      "1. Of late for the last two years or more, I have been completely consumed by the idea of the artist as a performer-creator. If I go back in time , I have always imagined myself in other's bodies or being. As a child , I have spent endless hours watching the potters make clay idols of Durga and Other gods and goddesses. The same quest would lead me into the cinema-hall watching the actors adopting new characters, new roles , ultimately becoming completely new beings .",
+" This would give me the joy of moving away from myself, forgetting myself just to imagine what it might feel to feel or be like some one else which you are not. This has driven me so powerfully that I have started a sef-portrait series in which I imagine myself as anything/anyone I aspire or dream to be; from Shiva to a nomad , from a gentle musician regaling the birds with music to a shaman to a painter. My artistic  life is a product of this aspiration and this over time I have realised is what I am born to do. ",
     ],
+    paintings: ["images/santone.jpeg",]
   },
     "PEMA": {
     name: "PEMA FATYA",
