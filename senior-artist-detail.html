@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Senior Artist Detail</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="js/senior-artists.js" defer></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-black">
+
+  <!-- 🔼 Load header here -->
+  <div id="header"></div>
+
+  <!-- 🔙 Back Link -->
+  <div class="max-w-6xl mx-auto px-4 sm:px-8 mt-8">
+    <a href="senior-artists-bio.html" class="text-white text-sm sm:text-base hover:underline">&larr; Back to Artist List</a>
+  </div>
+
+  <!-- 🔷 Main Artist Detail -->
+  <div id="artist-container" class="max-w-6xl mx-auto py-12 px-4 sm:px-8 grid grid-cols-1 md:grid-cols-2 gap-10 items-start text-white">
+    
+    <!-- Left Side (Image + Paintings) -->
+    <div>
+      <img id="artist-image" class="w-full h-auto rounded-lg shadow-lg mb-6" />
+      <div id="artist-paintings" class="grid grid-cols-2 sm:grid-cols-3 gap-4"></div>
+    </div>
+
+    <!-- Right Side (Text Info) -->
+    <div class="space-y-6">
+      <h1 id="artist-name" class="text-3xl sm:text-4xl font-bold uppercase"></h1>
+      <p id="artist-title" class="text-xl text-white/70 font-regular"></p>
+      <div id="artist-bio" class="text-sm sm:text-base leading-relaxed text-gray-200 space-y-4"></div>
+
+      <a href="#" id="whatsapp-link" 
+         class="inline-block bg-green-500 text-white px-6 py-3 rounded-full shadow-lg hover:bg-green-600 transition">
+        💬 Chat With Us
+      </a>
+    </div>
+  </div>
+
+  <!-- 🔽 Load footer here -->
+  <div id="footer" class="mt-10"></div>
+
+  <!-- 🔍 Image Zoom Modal -->
+  <div id="image-modal" class="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50 hidden">
+    <div class="relative max-w-3xl w-full">
+      <button id="close-modal" class="absolute top-2 right-2 bg-white text-black rounded-full px-3 py-1 font-bold text-lg hover:bg-gray-200">×</button>
+      <img id="modal-image" src="" alt="Zoomed Artwork" class="w-full h-auto rounded shadow-xl max-h-[90vh] object-contain" />
+    </div>
+  </div>
+
+  <!-- ✅ JavaScript -->
+  <script>
+    window.addEventListener('DOMContentLoaded', () => {
+      // Load header.html
+      fetch('header.html')
+        .then(res => res.text())
+        .then(data => document.getElementById('header').innerHTML = data);
+
+      // Load footer.html
+      fetch('footer.html')
+        .then(res => res.text())
+        .then(data => document.getElementById('footer').innerHTML = data);
+
+      // Get artist from URL
+      const params = new URLSearchParams(window.location.search);
+      const rawName = params.get("name");
+
+      if (!rawName) {
+        document.getElementById("artist-container").innerHTML =
+          "<p class='text-red-500'>No artist specified in URL.</p>";
+        return;
+      }
+
+      const artistKey = decodeURIComponent(rawName).toUpperCase();
+
+      // Normalize keys
+      const normalizedSenior = {};
+      for (const key in seniorArtists) {
+        normalizedSenior[key.toUpperCase()] = seniorArtists[key];
+      }
+
+      const artist = normalizedSenior[artistKey];
+
+      if (artist) {
+        document.getElementById("artist-name").textContent = artist.name;
+        document.getElementById("artist-image").src = artist.image;
+        document.getElementById("artist-title").textContent = artist.title || "Renowned Tribal Artist";
+
+        // ✅ MULTIPLE BIO PARAGRAPHS SUPPORT
+        const bioContainer = document.getElementById("artist-bio");
+        bioContainer.innerHTML = "";
+        if (Array.isArray(artist.bio)) {
+          artist.bio.forEach(para => {
+            const p = document.createElement("p");
+            p.textContent = para;
+            bioContainer.appendChild(p);
+          });
+        } else {
+          const p = document.createElement("p");
+          p.textContent = artist.bio;
+          bioContainer.appendChild(p);
+        }
+
+        const whatsappMessage = `Hi, I want to know more about ${artist.name}`;
+        document.getElementById("whatsapp-link").href = `https://wa.me/919818675784?text=${encodeURIComponent(whatsappMessage)}`;
+
+        const container = document.getElementById("artist-paintings");
+        if (artist.paintings) {
+          artist.paintings.forEach((painting) => {
+            const img = document.createElement("img");
+            img.src = painting;
+            img.alt = artist.name + " painting";
+            img.className = "w-full object-cover rounded shadow cursor-pointer";
+
+            // 🖱 Click to open modal
+            img.addEventListener("click", () => {
+              document.getElementById("modal-image").src = painting;
+              document.getElementById("image-modal").classList.remove("hidden");
+            });
+
+            container.appendChild(img);
+          });
+        }
+      } else {
+        document.getElementById("artist-container").innerHTML = `
+          <p class='text-red-500'>Artist "<strong>${artistKey}</strong>" not found.</p>
+        `;
+      }
+
+      // ❌ Close modal on close button
+      document.getElementById("close-modal").addEventListener("click", () => {
+        document.getElementById("image-modal").classList.add("hidden");
+      });
+
+      // ❌ Close modal on outside click
+      document.getElementById("image-modal").addEventListener("click", (e) => {
+        if (e.target.id === "image-modal") {
+          document.getElementById("image-modal").classList.add("hidden");
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
