@@ -11,8 +11,8 @@ const seniorArtists = {
   
   },
 
-  "INDRAPERMIT ROY": {
-    name: "INDRAPERMIT ROY",
+  "INDRAPRAMIT ROY": {
+    name: "INDRAPRAMIT ROY",
     title: "Born in 1964 in Kolkata, West Bengal, India",
     image: "images/roy.jpg",
     bio: [
