@@ -14,7 +14,7 @@ const seniorArtists = {
   "INDRAPRAMIT ROY": {
     name: "INDRAPRAMIT ROY",
     title: "Born in 1964 in Kolkata, West Bengal, India",
-    image: "images/roy.jpg",
+    image: "images/indra.jpg",
     bio: [
       "Indrapramit Roy grew up in Shantiniketan, where poetry, art, and nature flowed together seamlessly. With a poet father and an early life immersed in quiet observation, he learned to see the world through layers—of memory, atmosphere, and meaning. His paintings often unfold like poems: slow, meditative, and filled with half-remembered places. Over the years, his canvases have become spaces of quiet contemplation—where fragments of architecture, windows, landscapes, and traces of memory drift in and out, like thoughts held just below the surface.",
       "His practice resists urgency. It is deeply patient, often drawing from poetry, weather, literature, and silence. In his layered textures and muted palettes, there is always a sense of distance—of something remembered, or half-seen. Indrapramit does not try to narrate, but rather evoke—a gentle invitation to dwell in the in-between.",

@@ -13,7 +13,7 @@ const emerging = {
 
     ],
 
-    paintings: ["images/yaaone.jpeg"]
+    paintings: ["images/yam.jpg"]
   }
 
 };
