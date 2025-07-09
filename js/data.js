@@ -58,7 +58,7 @@ const artists = {
   "VENKAT RAMAN SINGH SHYAM": {
     name: "VENKAT RAMAN SINGH SHYAM",
     title: "Born 1970, Sijhora, Madhya Pradesh",
-    image: "images/ven.jpg",
+    image: "images/ven.jpeg",
     bio: [
     "As the nephew of Jangarh Singh Shyam, art ran in Venkat’s veins. But his journey was uniquely his own—working as a sign painter, rickshaw puller, and night watchman before fully entering the art world. His works are layered with social commentary, family lore, and urban experiences, told through the symbols and animals of his Gond heritage. For Venkat, painting is an act of survival and rebellion—an assertion of identity in a shifting world.",
     "1. In this intricate composition, Venkat Raman Singh Shyam brings together a multitude of figures in dynamic interaction, illustrating a community in motion. The painting teems with activity—human and animal forms, rituals, and everyday gestures—interwoven into a dense, rhythmic narrative. Echoing the visual vocabulary of the Gond tradition, each figure is stylized with patterned textures and fluid lines, capturing movement and interdependence. The central motif appears to be a journey—perhaps migratory or mythological—framing the painting as a layered story of displacement, cultural transmission, and resilience. The red and green border framing the scene subtly references traditional textiles or scrolls, suggesting a continuity of storytelling forms.",
@@ -66,7 +66,7 @@ const artists = {
 
     ],
 
-    paintings: ["images/ventwo.jpg",]
+    paintings: ["images/ventwo.jpeg",]
   },
 
   "DURGA BAI VYAM": {
