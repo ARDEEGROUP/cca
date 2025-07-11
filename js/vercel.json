@@ -12,10 +12,9 @@
       "source": "/artist",
       "destination": "/artist.html"
     },
-    
-	{
+    {
       "source": "/Exhibitions",
       "destination": "/event.html"
     }
- ]
+  ]
 }
