@@ -1,0 +1,21 @@
+{
+  "rewrites": [
+    {
+      "source": "/about",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/gallery",
+      "destination": "/gallery.html"
+    },
+    {
+      "source": "/artist",
+      "destination": "/artist.html"
+    },
+    
+	{
+      "source": "/Exhibitions",
+      "destination": "/event.html"
+    }
+ ]
+}
