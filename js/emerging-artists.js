@@ -14,6 +14,22 @@ const emerging = {
     ],
 
     paintings: ["images/yam.jpg"]
+  },
+
+   "ANURAG PAUL": {
+    name: "ANURAG PAUL",
+    title: "Born 1999, kolkata, India",
+    image: "images/paul.jpeg",
+    bio: [
+    "Anurag Paul is a Kolkata-based artist, his practice explores the poetic potential of everyday objects, transforming the ordinary into layered visual narratives that evoke both personal and collective memory. Drawing from observation, literary methods, repetition, and mnemonic devices, Anurag invites viewers to find their own meanings within his intricately detailed works—often punctuated by cleverly crafted titles that blend humour with layered meaning.",
+
+    "1. This intricate composition by Anurag Paul is a tapestry of emotion, memory, and collective identity. Rendered in rich earth tones and layered with dense patterning, the work depicts a group of abstracted human figures—each uniquely adorned with motifs that evoke ritual, architecture, scars, maps, and inner symbols. The composition pulses with rhythmic geometry: spirals, checks, stars, and anatomical outlines become vessels of layered meaning.",
+    
+    "At its core, the artwork becomes a visual archive of interwoven lives—silent witnesses to migration, transformation, and belonging. It is a celebration of complexity, drawing the viewer into a hypnotic field of textures and voices, where every line tells a story, and every body is a myth.",
+
+    ],
+
+    
   }
 
 };
