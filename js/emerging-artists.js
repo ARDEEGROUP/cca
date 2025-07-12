@@ -19,7 +19,7 @@ const emerging = {
    "ANURAG PAUL": {
     name: "ANURAG PAUL",
     title: "Born 1999, kolkata, India",
-    image: "images/paul.jpeg",
+    image: "images/paul.jpg",
     bio: [
     "Anurag Paul is a Kolkata-based artist, his practice explores the poetic potential of everyday objects, transforming the ordinary into layered visual narratives that evoke both personal and collective memory. Drawing from observation, literary methods, repetition, and mnemonic devices, Anurag invites viewers to find their own meanings within his intricately detailed works—often punctuated by cleverly crafted titles that blend humour with layered meaning.",
 
