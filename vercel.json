@@ -14,6 +14,7 @@
     { "source": "/emerging-artist-bio", "destination": "/emerging-artist-bio.html" },
     { "source": "/artist-detail", "destination": "/artist-detail.html" },
     { "source": "/artist-bio", "destination": "/artist-bio.html" },
-    { "source": "/enquireform", "destination": "/enquireform.html" }
+    { "source": "/enquireform", "destination": "/enquireform.html" },
+    { "source": "/media", "destination": "/media.html" }
   ]
 }
