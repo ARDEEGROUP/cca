@@ -47,12 +47,9 @@ const artists = {
     bio: [
       "Bhuri Bai began her journey as a construction labourer before the world of art opened to her at Bharat Bhavan. Armed with the traditional Bhil knowledge passed down through songs and stories, she began painting with the characteristic Bhil dots—each one like a heartbeat. Her paintings now speak of both village rituals and the newness of cities, always carrying the forest’s pulse. For Bhuri, painting is a way to keep memory and belonging alive.",
       "1. This long, horizontal painting by Bhuri Bai is a vibrant and densely detailed panorama teeming with life, rendered in the distinctive Bhil style. It showcases a rich array of stylized animals in various colors – including blue, red, orange, and black – such as deer, birds, and other creatures, often depicted amidst lush, patterned foliage. The entire composition is filled with intricate dot-work and fine lines, creating a mesmerizing texture across the surface. Trees with detailed leaves and branches stretch across the canvas, and subtle human or divine figures may also be integrated into the natural world. The painting evokes a sense of a thriving ecosystem and the interconnectedness of all living things, often a central theme in Bhil art, which draws heavily from nature and tribal folklore.",
-      "2. This painting by Bhuri Bai depicts a central, stylized green figure with large eyes and distinct ears, seated in a meditative or ceremonial pose, wearing a red loincloth. The figure is rendered with the characteristic dot-work and intricate patterning seen in Bhil art. It appears to be holding a spherical object in one hand. Flanking the central figure are two prominent trees: a palm-like tree on the left, from which a blue human-like figure is climbing or descending, and another tree on the right, from which a large axe or tool hangs. The overall composition suggests a scene rooted in tribal mythology or daily life, with a strong spiritual or ritualistic undertone.",
-
-
-
+    
     ],
-    paintings: ["images/bhurione.jpg",]
+    
   },
 
   "VENKAT RAMAN SINGH SHYAM": {
