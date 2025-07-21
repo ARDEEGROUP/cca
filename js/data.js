@@ -16,8 +16,6 @@ const artists = {
     "Growing up in a Maithil household rich with rituals and oral traditions, Baua Devi was surrounded by stories from the Ramayana, tales of village goddesses, and motifs drawn on mud walls. As one of the first women to paint on paper, she helped bring Madhubani art from the domestic to the public realm. Her art is prayerful and intricate, inspired by cycles of life, devotion, and deep-rooted cultural memory. Each painting feels like a tapestry of her lived world.",
     "1. This painting by Baua Devi, features a striking central figure with a vibrant yellow face and wide, expressive eyes, framed by a bold, curving orange form that resembles a cowl or wings. The figure has distinct red lips and traditional markings on its forehead. The background is a dark gray, richly adorned with numerous stylized white and red floral motifs, each with a yellow center, arranged in a repetitive pattern. A border in red, yellow, and black frames the entire composition, characteristic of Madhubani art. At the bottom, a small, patterned band in green, yellow, and red adds another layer of traditional detail.",
     "2. This painting showcases a simplified, stylized face in profile. The face is predominantly red with a large, white eye and a bold, black pupil. A flowing, curvilinear design in black adorns the lower part of the face, leading to an open red mouth with a prominent red tongue. Black, spiky hair emanates from the top of the head. The background is a light grey with a subtle texture, and a border in red and yellow with a serrated inner edge frames the artwork. In the bottom right corner, a small, simplified human figure in red, yellow, and white clothing is depicted.",
-
-
   ],
     paintings: ["images/buatwo.jpg"]
   },
@@ -60,7 +58,6 @@ const artists = {
     "As the nephew of Jangarh Singh Shyam, art ran in Venkat’s veins. But his journey was uniquely his own—working as a sign painter, rickshaw puller, and night watchman before fully entering the art world. His works are layered with social commentary, family lore, and urban experiences, told through the symbols and animals of his Gond heritage. For Venkat, painting is an act of survival and rebellion—an assertion of identity in a shifting world.",
     "1. In this intricate composition, Venkat Raman Singh Shyam brings together a multitude of figures in dynamic interaction, illustrating a community in motion. The painting teems with activity—human and animal forms, rituals, and everyday gestures—interwoven into a dense, rhythmic narrative. Echoing the visual vocabulary of the Gond tradition, each figure is stylized with patterned textures and fluid lines, capturing movement and interdependence. The central motif appears to be a journey—perhaps migratory or mythological—framing the painting as a layered story of displacement, cultural transmission, and resilience. The red and green border framing the scene subtly references traditional textiles or scrolls, suggesting a continuity of storytelling forms.",
     "2.This bold composition by Venkat Raman Singh Shyam reimagines mythological figures in strikingly contemporary ways. The characters, rendered with exaggerated bodily proportions and expressive features, appear in a scene charged with symbolism—perhaps invoking a reinterpretation of origin myths or cosmic dramas. The presence of the Indian flag and a totemic pole to the right hints at the collision between indigenous identities and modern national narratives. Each figure's detailing—from headdresses to textured skin—is rendered with precision, echoing the Gond aesthetic while allowing space for subversion and satire. The artist’s use of color—particularly the deep reds and blues—enhances the theatricality and emotional intensity of the scene, inviting viewers to reconsider the roles of tradition, power, and mythology in contemporary life.",
-
     ],
 
     paintings: ["images/ventwo.jpeg",]
@@ -100,8 +97,6 @@ const artists = {
     bio: [
     "Named 'Japani' after her father’s dream of visiting Japan, Japani Shyam has lived her life under the shadow and brilliance of her father, Jangarh Singh Shyam. Yet she’s carved a space uniquely her own—gentler, more lyrical, filled with symmetry and soft energies. Having started at age seven, art became her language of healing and legacy. Trees, birds, and stories unfold in her compositions like songs from childhood.",
     "1. The central motif is a stylized tree, the sacred 'Tree of Life', with elaborate branches and foliage. Within and around the tree's structure, various animals and hidden figures are intricately woven into the design, a hallmark of Gond art's connection to nature and its creatures. The negative space is skillfully utilized to define shapes, and the overall effect is one of delicate lace-like patterns. The top section showcases dense foliage and perhaps birds or other animals nestled within, while the lower section represents roots or the base of the tree, similarly populated with detailed forms. The high contrast emphasizes the intricate linework and the imaginative blending of natural elements.",
-
-
     ],
 
   },
@@ -117,7 +112,6 @@ const artists = {
     "2. In this vibrant, story-filled scene, Lado Bai portrays rows of striped animals and humans engaged in rituals and communal activities. Horses, goats, and tigers are shown in symmetrical arrangements, their bodies made up of delicate dotted patterns in vibrant colors. The painting becomes a narrative scroll—documenting daily life, festivals, and forest encounters—framed by a radiant border of multi-hued triangles, giving it a celebratory, ceremonial presence. ",
     "3. This black-on-white painting captures a whimsical rural moment, where human and animal figures interact in harmony. Rendered in bold silhouettes, cows, birds, and two joyful human figures form a circular composition, evoking unity and mutual dependence. Lado Bai’s minimal, almost stencil-like style retains a raw vitality, speaking of innocence, rhythm, and the everyday bonds shared between people and animals in tribal life.",
     "4.  Set against a deep blue background, this dynamic composition overflows with movement and layered storytelling. Figures climb ladders, swing from trees, dance, and prepare food—suggesting a festival or mythological event. With her signature dotted forms and earthy palette, Lado Bai builds a chaotic yet celebratory scene full of human expression and cultural memory. The work serves as a living archive of Bhil oral tradition and shared community life.",
-
     ],
   paintings: ["images/ladoone.jpg" , "images/ladotwo.png" , "images/ladothree.png"]
   },
@@ -129,7 +123,6 @@ const artists = {
     bio: [
     "Born into a family where oral tales and rituals were a way of life, Mangala Bai Maravi paints from a wellspring of ancestral knowledge. Her canvases echo the pulse of the forest, the cycle of seasons, and the unseen world of spirits. Her use of bright colors and repeating motifs creates a rhythm that feels both ancient and fresh. Her art speaks softly but with immense presence—a bridge between tradition and self-expression.",
     "1. This artwork by Mangala Bai Maravi, a Baiga tattoo artist, features two large, stylized human figures rendered in black ink on white paper, echoing the traditional patterns of Baiga tattoos. The figures are depicted frontally, showcasing intricate geometric and lineal designs that fill the body outlines, mimicking the art of skin tattooing. The figure on the left has a detailed face with eyes, nose, and mouth, and is adorned with patterns resembling necklaces and chest tattoos. Its limbs and torso are filled with various stripes, zigzags, and concentric shapes. The figure on the right, shown from the back, has a solid black head and its body is similarly embellished with a different set of intricate linear and geometric motifs, suggesting hair patterns and back tattoos. The pieces are a striking representation of the cultural significance and beauty of Baiga tattoo art, translated onto paper.",
-
     ],
     paintings: ["images/manglaone.jpg",]
     
@@ -142,7 +135,6 @@ const artists = {
     bio: [
     "Raised in a Warli village where stories are drawn on walls during rituals, Amit Dombhare’s life is steeped in storytelling. But instead of staying in the past, he uses Warli’s minimalist lines to comment on modern life—urbanization, migration, and change. His works are clean, monochromatic, and deeply emotional, capturing the fragility of tradition in a fast world. For Amit, drawing is a form of storytelling that never needs translation.",
     "1. This Warli artwork by Amit Dombhare features a captivating spiral of birds in motion, meticulously painted in white on a textured cow dung base. The rhythmic formation creates a sense of dynamic movement and harmony, as if the flock is caught mid-flight in a cosmic dance. Anchored by a radiant sun above and a crescent moon below, the composition reflects themes of continuity, balance, and the interconnectedness of nature. Dombhare’s use of traditional Warli techniques imbues the work with both ancestral memory and contemporary resonance. ",
-
     ],
 
   },
@@ -204,8 +196,6 @@ const artists = {
     "1. This vibrant painting by Yashpal Baranda, a contemporary Bhil artist, weaves together mythology and everyday symbolism through bold forms and intricate patterns. Set against a richly textured yellow-brown background, the composition features stylized figures and animals central to Bhil storytelling.",
     "On the left, two human faces—one blue-skinned with textured hair and another lighter in tone—are rendered with simplified features and vivid red lips. A large white bull-like creature, adorned with detailed dot patterns, anchors the right side. Beside it sits a crowned, serene figure, while a horned, bearded figure stands nearby, adding to the mythic narrative.",
     "Baranda’s signature dot work and earthy palette create a powerful visual rhythm, merging traditional Bhil motifs with a contemporary, expressive style.",
-
-
     ],
   },
 
@@ -227,9 +217,6 @@ const artists = {
     bio: [
      "Born in a village in Jhabua, the late Pema Fatya was a revered Bhil artist whose paintings carried the soul of his people and the forest that cradled his life. Born into a community where myths were not just stories but lived truths, he painted with reverence—each dot a prayer, each animal a spirit guide. Pema did not learn art in a classroom; he absorbed it through rituals, songs, and the changing skies of Madhya Pradesh. His canvases, rich with color and memory, spoke of gods, seasons, harvests, and the quiet dignity of tribal life. Though he is no longer with us, his work lives on as a testament to a world seen through ancestral eyes and painted with profound tenderness. In every dot and curve, Pema Fatya reminds us of the beauty of remembering.",
      "1. This Pithora painting by Pema Fatya is a vibrant and densely populated artwork, characteristic of the Bhil and Bhilala tribal communities. Rendered on a light background, it features a multitude of stylized figures, predominantly animals like horses in various colors (red, green, yellow, black, grey), as well as smaller dogs and birds. Human figures, some appearing to be riding or interacting with the animals, are also present, depicted in a simplified, stick-figure-like manner. Elements of nature, such as trees and celestial bodies, are subtly integrated. The entire composition is framed by a distinctive border of repetitive triangular and zig-zag patterns in various colors, often seen in Pithora art. The painting likely represents a visual narrative or a sacred space, as Pithora paintings are traditionally created as ritualistic murals to appease gods and fulfill vows, often depicting the local pantheon and daily life of the community.",
-
-
-
     ],
   },
 
@@ -241,7 +228,6 @@ const artists = {
       "The late Narmada Prasad Tekam was a gifted Gond artist whose art grew directly from the soil and spirit of his homeland. As a young boy herding cattle by the banks of the River Singni, he discovered his first canvas in the sand. Lying down to trace his own body with a stick, he began what would become a lifelong journey of image-making—one rooted in instinct, nature, and tradition.In his early years, Narmada painted on the walls of his home using black and yellow clay. His palette came from the forest—leaves, flowers, earth—and his subjects were the beings around him: humans, animals, birds, and gods. Over time, his motifs evolved, but he remained faithful to the symbols of the Gond worldview. Tigers, porcupines, birds, and deer filled his canvases with quiet vitality, while his illustrations of goddesses—such as Bangari Devi, Bahri Batorandevi, and Chausat Joghan—brought divine feminine power into visual form in the book Gond Devlok, a collaboration with Dr. Dharmendra Pare.Narmada Prasad Tekam’s legacy lives on through the forests he painted, the deities he invoked, and the sand where it all began",
 
       "1. This intricate painting by renowned Gond artist Narmada Prasad Tekam depicts a divine, mythological figure rendered in his signature line-and-dot technique, a hallmark of Gond tribal art. The central figure—a deity or forest spirit—holds a bow in one hand and a flowering branch in the other, symbolizing both protection and regeneration. The rhythmic patterning of fine lines and vibrant dots creates a sense of movement and spiritual energy, reflecting the deep connection between nature, myth, and daily life in Gond cosmology. Tekam’s use of symmetry and minimal color evokes a meditative stillness while retaining the narrative richness of oral tradition.",
-
     ],
     
   }
