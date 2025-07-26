@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Art Gallery</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white min-h-screen flex flex-col items-center">
+
+  <!-- Header: White background, black text -->
+  <div class="w-full bg-black text-white py-6 text-center">
+    <h1 class="text-4xl font-extrabold">CENTER FOR CULTURE AND ART GALLERY</h1>
+  </div>
+
+  <!-- Gallery Grid -->
+  <div id="gallery" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-6 w-full max-w-6xl">
+    <!-- JS will insert artwork cards here -->
+  </div>
+
+  <script>
+    fetch("paintings.json")
+      .then((res) => res.json())
+      .then((data) => {
+        const gallery = document.getElementById("gallery");
+        data.forEach((art) => {
+          const div = document.createElement("div");
+          div.className = "bg-white text-black rounded-lg overflow-hidden shadow-lg transition hover:scale-105";
+          div.innerHTML = `
+            <a href="art.html?id=${art.id}" class="block">
+              <img src="${art.image}" alt="${art.title}" class="w-full h-48 object-cover" />
+              <div class="p-4">
+                <p class="font-semibold text-lg">${art.artist}</p>
+                <p class="text-sm">${art.title} (${art.year})</p>
+              </div>
+            </a>
+          `;
+          gallery.appendChild(div);
+        });
+      });
+  </script>
+</body>
+</html>

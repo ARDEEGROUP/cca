@@ -1,0 +1,35 @@
+[
+  {
+    "id": "tagore01",
+    "artist": "Gaganendranath Tagore",
+    "title": "Untitled (Figure at Dawn)",
+    "year": "1920 Circa",
+    "medium": "Watercolour on card",
+    "dimensions": "9 x 24.5 cm",
+    "dimensionsIn": "3 1/2 x 9 5/8 in",
+    "price": null,
+    "image": "images/tagore01.jpg"
+  },
+  {
+    "id": "chughtai01",
+    "artist": "Abdur Rahman Chughtai",
+    "title": "Yasosod",
+    "year": "Circa 1930s",
+    "medium": "Watercolour on paper",
+    "dimensions": "56.5 x 45.1 cm",
+    "dimensionsIn": "22 1/4 x 17 3/4 in",
+    "price": "£ 340,000.00",
+    "image": "images/chughtai01.jpg"
+  },
+  {
+    "id": "ghose01",
+    "artist": "Gopal Ghose",
+    "title": "Untitled (Pastoral Scene)",
+    "year": "1942",
+    "medium": "Watercolour, ink and wash on paper",
+    "dimensions": "17.8 x 28.6 cm",
+    "dimensionsIn": "7 1/8 x 11 1/4 in",
+    "price": "£ 5,000.00",
+    "image": "images/ghose01.jpg"
+  }
+]
