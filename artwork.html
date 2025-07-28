@@ -50,7 +50,7 @@
         const gallery = document.getElementById("gallery");
         data.forEach((art) => {
           const div = document.createElement("div");
-          div.className = "bg-white text-black rounded-lg overflow-hidden shadow-lg transition hover:scale-105 duration-200";
+          div.className = "bg-white text-black  overflow-hidden  transition hover:scale-105 duration-200";
           div.innerHTML = `
             <a href="art.html?id=${art.id}" class="block">
               <img src="${art.image}" alt="${art.title}" class="w-full h-48 object-cover" />
