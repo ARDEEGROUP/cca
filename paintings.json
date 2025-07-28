@@ -1,35 +1,331 @@
 [
   {
-    "id": "tagore01",
-    "artist": "Gaganendranath Tagore",
-    "title": "Untitled (Figure at Dawn)",
-    "year": "1920 Circa",
-    "medium": "Watercolour on card",
-    "dimensions": "9 x 24.5 cm",
-    "dimensionsIn": "3 1/2 x 9 5/8 in",
-    "price": null,
-    "image": "images/tagore01.jpg"
+    "id": 1,
+    "artist": "Jangarh Singh Shyam",
+    "title": "Pig",
+    "medium": "Acrylic on canvas",
+    "dimensionsInch": "48 x 48 in",
+    "provenance": "Certificate of Authenticity with wife's sign and exhibition catalouges",
+    "image": "images/jang.jpg"
+   
   },
+
   {
-    "id": "chughtai01",
-    "artist": "Abdur Rahman Chughtai",
-    "title": "Yasosod",
-    "year": "Circa 1930s",
-    "medium": "Watercolour on paper",
-    "dimensions": "56.5 x 45.1 cm",
-    "dimensionsIn": "22 1/4 x 17 3/4 in",
-    "price": "£ 340,000.00",
-    "image": "images/chughtai01.jpg"
+    "id": 2,
+    "artist": "Jodhaiya Bai Baiga",
+    "title": "Untitled",
+    "medium": "Acrylic on canvas",
+    "dimensionsInch": "42 x 62 in",
+    "provenance": "Photograph with Certificate of aythenticity",
+    "image": "images/jodtwo.jpg"
+    
   },
+
   {
-    "id": "ghose01",
-    "artist": "Gopal Ghose",
-    "title": "Untitled (Pastoral Scene)",
-    "year": "1942",
-    "medium": "Watercolour, ink and wash on paper",
-    "dimensions": "17.8 x 28.6 cm",
-    "dimensionsIn": "7 1/8 x 11 1/4 in",
-    "price": "£ 5,000.00",
-    "image": "images/ghose01.jpg"
+    "id": 3,
+    "artist": "Jodhaiya Bai Baiga",
+    "title": "Untitled",
+    "medium": "Acrylic on canvas",
+    "dimensionsInch": "42 x 56 in",
+    "provenance": "Photograph with Certificate of aythenticity",
+    "image": "images/jodthree.jpg"
+    
+  },
+
+  {
+    "id": 4,
+    "artist": "Jodhaiya Bai Baiga",
+    "title": "Untitled",
+    "medium": "Acrylic on canvas",
+    "dimensionsInch": "41 x 49 in",
+    "provenance": "Photograph with Certificate of aythenticity",
+    "image": "images/jodfive.png"
+    
+  },
+
+  {
+    "id": 5,
+    "artist": "Santosh Kumar Das",
+    "title": "Self-portrait: Becoming / Being",
+    "medium": "Acrylic on Paper",
+    "dimensionsInch": "30 x 22 in",
+    "provenance": "Photograph with Certificate of aythenticity",
+    "image": "images/sant.jpg"
+  },
+
+  {
+    "id": 6,
+    "artist": "Santosh Kumar Das",
+    "title": "Self-portrait: Becoming / Being",
+    "medium": "Acrylic on Paper",
+    "dimensionsInch": "30 x 22 in",
+    "provenance": "Photograph with Certificate of aythenticity",
+    "image": "images/santone.jpeg"
+  },
+
+  {
+    "id": 7,
+    "artist": "Pema Fatya",
+    "title": "Untitled",
+    "medium": "Acrylic on cloth",
+    "dimensionsInch": "39 x 28 in",
+    "provenance": "Photograph with artist",
+    "image": "images/pema.jpg"
+    
+  },
+
+  {
+    "id": 8,
+    "artist": "Baua Devi",
+    "title": "Untitled",
+    "medium": "Acrylic on canvas",
+    "dimensionsInch": "60 x 48 in",
+    "provenance": "Photograph with Certificate of aythenticity",
+    "image": "images/buatwo.jpg"
+    
+  },
+
+   {
+    "id": 9,
+    "artist": "Baua Devi",
+    "title": "Moon",
+    "medium": "Acrylic on canvas",
+    "dimensionsInch": "48 x 60 in",
+    "provenance": "Photograph with Certificate of aythenticity",
+    "image": "https://www.centreforcultureandart.com/images/bua.jpg"
+    
+  },
+
+  {
+    "id": 10,
+    "artist": "Bhuri bai",
+    "title": "Ganesha",
+    "medium": "Acrylic on canvas",
+    "dimensionsInch": "36 x 36 in",
+    "provenance": "Photograph with Certificate of aythenticity",
+    "image": "images/bhu.jpg"
+    
+  },
+
+  {
+    "id": 11,
+    "artist": "Narmada prasad tekam",
+    "title": "Untitled",
+    "medium": "Acrylic on canvas",
+    "dimensionsInch": "48 x 36 in",
+    "provenance": "Photograph with artist",
+    "image": "images/narmada.jpeg"
+    
+  },
+
+  {
+    "id": 12,
+    "artist": "Venkat Singh shyam",
+    "title": "Gond Rituals: Mother Goddess",
+    "medium": "Acrylic on canvas",
+    "dimensionsInch": "33 x 73.5 in",
+    "provenance": "Photograph with Certificate of aythenticity",
+    "image": "images/ventwo.jpeg"
+    
+  },
+
+  {
+    "id": 13,
+    "artist": "Durga Bai",
+    "title": "Shaadi ke nag",
+    "medium": "Acrylic on canvas",
+    "dimensionsInch": "35 x 50 in",
+    "provenance": "Photograph with Certificate of aythenticity",
+    "image": "images/durga.jpg"
+    
+  },
+
+    {
+    "id": 14,
+    "artist": "Durga Bai",
+    "title": "Untitled",
+    "medium": "Acrylic on canvas",
+    "dimensionsInch": "50 x 35 in",
+    "provenance": "Photograph with Certificate of aythenticity",
+    "image": "images/durga.jpg"
+    
+  },
+
+     {
+    "id": 15,
+    "artist": "Ganga Devi Bhatt",
+    "title": "Untitled",
+    "medium": "Watercolor on Paper",
+    "dimensionsInch": "22 x 30 in",
+    "provenance": "Photograph with Certificate of aythenticity",
+    "image": "images/ganga.jpeg"
+    
+  },
+
+     {
+    "id": 16,
+    "artist": "Ganga Devi Bhatt",
+    "title": "Untitled",
+    "medium": "Watercolor on Paper",
+    "dimensionsInch": "22 x 30 in",
+    "provenance": "Photograph with Certificate of aythenticity",
+    "image": "images/gangaone.jpeg"
+    
+  },
+
+     {
+    "id": 17,
+    "artist": "Ganga Devi Bhatt",
+    "title": "Untitled",
+    "medium": "Watercolor on Paper",
+    "dimensionsInch": "30 x 22 in",
+    "provenance": "Photograph with Certificate of aythenticity",
+    "image": "images/gangatwo.png"
+    
+  },
+
+       {
+    "id": 18,
+    "artist": "Japani Shyam",
+    "title": "Baba dev ",
+    "medium": "Acrylic on Canvas",
+    "dimensionsInch": "72 x 48 in",
+    "provenance": "Photograph with Certificate of aythenticity",
+    "image": "images/japani.jpg"
+    
+  },
+
+        {
+    "id": 19,
+    "artist": "Lado bai",
+    "title": "Untitled",
+    "medium": "charcoal powder with glue on canvas ",
+    "dimensionsInch": "36 x 33 in",
+    "provenance": "Photograph with Certificate of aythenticity",
+    "image": "images/ladotwo.png"
+    
+  },
+
+         {
+    "id": 20,
+    "artist": "Lado bai",
+    "title": "Untitled",
+    "medium": "charcoal powder with glue on canvas ",
+    "dimensionsInch": "78 x 58 in",
+    "provenance": "Photograph with Certificate of aythenticity ",
+    "image": "images/ladoone.jpg"
+    
+  },
+
+         {
+    "id": 21,
+    "artist": "Lado bai",
+    "title": "Untitled",
+    "medium": "charcoal powder with glue on canvas ",
+    "dimensionsInch": "71 x 48 in",
+    "provenance": "Certificate of aythenticity",
+    "image": "images/ladothree.png"
+    
+  },
+
+         {
+    "id": 22,
+    "artist": "Mangla bai maravi",
+    "title": "Baiga Godna",
+    "medium": "Acrylic on Canvas  ",
+    "dimensionsInch": "72 x 42 in",
+    "provenance": "Photograph with Certificate of aythenticity",
+    "image": "images/mangla.jpg"
+    
+  },
+
+         {
+    "id": 23,
+    "artist": "Mangla bai maravi",
+    "title": "Baiga Godna",
+    "medium": "Acrylic on Canvas  ",
+    "dimensionsInch": "72 x 42 in",
+    "provenance": "Photograph with Certificate of aythenticity",
+    "image": "images/manglaone.jpg"
+    
+  },
+
+          {
+    "id": 24,
+    "artist": "Amit Dombhare",
+    "title": "Untitled",
+    "medium": "Cowdung on cloth  ",
+    "dimensionsInch": "77 x 54 in",
+    "provenance": "Photograph with Certificate of aythenticity",
+    "image": "images/amit.jpg"
+    
+  },
+
+          {
+    "id": 25,
+    "artist": "Bhajju Shyam",
+    "title": "Untitled",
+    "medium": "Acrylic on Canvas  ",
+    "dimensionsInch": "57 x 48 in",
+    "provenance": "Photograph with Certificate of aythenticity",
+    "image": "images/bhajju.jpg"
+    
+  },
+
+          {
+    "id": 26,
+    "artist": "Sangita Jogi",
+    "title": "Baiga Godna",
+    "medium": "Women empowerment  ",
+    "dimensionsInch": "36 x 48 in",
+    "provenance": "Photograph with Certificate of aythenticity",
+    "image": "images/sangitatwo.png"
+    
+  },
+
+            {
+    "id": 27,
+    "artist": "Manoj Tekam",
+    "title": "Untitled",
+    "medium": "Acrylic, pen and ink on paper  ",
+    "dimensionsInch": "22 x 30 in",
+    "provenance": "Photograph with Certificate of aythenticity",
+    "image": "images/manoj.jpeg"
+    
+  },
+
+  
+            {
+    "id": 28,
+    "artist": "Yashpal Baranda",
+    "title": "Characters of Gawri dance",
+    "medium": "Acrylic on canvas",
+    "dimensionsInch": "48 x 60 in",
+    "provenance": "Photograph with Certificate of aythenticity",
+    "image": "images/yas.jpeg"
+    
+  },
+
+  
+            {
+    "id": 29,
+    "artist": "Pandi Ram Mandavi",
+    "title": "Untitled",
+    "medium": "Acrylic, pen and ink on paper  ",
+    "dimensionsInch": "h- 40",
+    "provenance": "Certificate of aythenticity",
+    "image": "images/manoj.jpeg"
+    
+  },
+  
+            {
+    "id": 30,
+    "artist": "Pandi Ram Mandav",
+    "title": "Untitled",
+    "medium": "Wood",
+    "dimensionsInch": "h-30",
+    "provenance": " Certificate of aythenticity",
+    "image": "images/manoj.jpeg"
+    
   }
 ]
