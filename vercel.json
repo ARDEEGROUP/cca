@@ -17,6 +17,7 @@
     { "source": "/enquireform", "destination": "/enquireform.html" },
     { "source": "/media", "destination": "/media.html" },
     { "source": "/who-we-are", "destination": "/who-we-are.html" },
-    { "source": "/artwork", "destination": "/artwork.html" }
+    { "source": "/artwork", "destination": "/artwork.html" },
+    { "source": "/404", "destination": "/404.html" }
   ]
 }
