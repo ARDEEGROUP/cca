@@ -1,7 +1,9 @@
 {
   "cleanUrls": true,
   "rewrites": [
-    { "source": "/", "destination": "/index.html" },
-    { "source": "/artist/:slug", "destination": "/artist-detail.html" }
+    {
+      "source": "/artist/:slug",
+      "destination": "/artist-detail.html"
+    }
   ]
 }
