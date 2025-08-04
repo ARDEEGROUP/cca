@@ -2,22 +2,6 @@
   "cleanUrls": true,
   "rewrites": [
     { "source": "/", "destination": "/index.html" },
-    { "source": "/artist", "destination": "/artist.html" },
-    { "source": "/gallery", "destination": "/gallery.html" },
-    { "source": "/event", "destination": "/event.html" },
-    { "source": "/thank-you", "destination": "/thank-you.html" },
-    { "source": "/student-bio", "destination": "/student-bio.html" },
-    { "source": "/student-detail", "destination": "/student-detail.html" },
-    { "source": "/senior-artist-detail", "destination": "/senior-artist-detail.html" },
-    { "source": "/senior-artists-bio", "destination": "/senior-artists-bio.html" },
-    { "source": "/emerging-artist-detail", "destination": "/emerging-artist-detail.html" },
-    { "source": "/emerging-artist-bio", "destination": "/emerging-artist-bio.html" },
-    { "source": "/artist/:slug", "destination": "/artist-detail.html" },  // ✅ This is the key rule
-    { "source": "/artist-bio", "destination": "/artist-bio.html" },
-    { "source": "/enquireform", "destination": "/enquireform.html" },
-    { "source": "/media", "destination": "/media.html" },
-    { "source": "/who-we-are", "destination": "/who-we-are.html" },
-    { "source": "/artwork", "destination": "/artwork.html" },
-    { "source": "/404", "destination": "/404.html" }
+    { "source": "/artist/:slug", "destination": "/artist-detail.html" }
   ]
 }
