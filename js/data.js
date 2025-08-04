@@ -1,6 +1,7 @@
 const artists = {
   "JANGARH SINGH SHYAM": {
     name: "JANGARH SINGH SHYAM",
+    slug: "jangarh-singh-shyam",
     title: "Mandla, Madhya Pradesh, 1962–2001",
     image: "images/jang.jpg",
     bio: ["Born into the Pardhan Gond community, Jangarh Singh Shyam's life changed when he was discovered by the artist J. Swaminathan. From humble beginnings, he became the torchbearer of a whole new genre of contemporary tribal art, now known as “Jangarh Kalam.” His vivid imagination was rooted in forest stories, spirits, and animals of his homeland. He gave form to his inner world with mythic resonance and emotional depth, inspiring generations of artists in and beyond his community.",
