@@ -5,39 +5,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Artist Detail</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <script src="/js/data.js" defer></script>
-  <link rel="stylesheet" href="/css/style.css">
-  <link rel="icon" type="image/png" href="/images/fav.png" />
-  <style>@import url('https://fonts.cdnfonts.com/css/futura-pt');</style>
+  <script src="js/data.js" defer></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" href="images/fav.png" />
+  
+  <style>
+    @import url('https://fonts.cdnfonts.com/css/futura-pt');
+  </style>
 </head>
 <body class="bg-black">
 
+  <!-- 🔼 Load header here -->
   <div id="header"></div>
 
+  <!-- 🔙 Back Link -->
   <div class="max-w-6xl mx-auto px-4 sm:px-8 mt-8">
     <a href="/artist-bio" class="text-white text-sm sm:text-base hover:underline">&larr; Back to Artist List</a>
   </div>
 
+  <!-- 🔷 Main Artist Detail -->
   <div id="artist-container" class="max-w-6xl mx-auto py-12 px-4 sm:px-8 grid grid-cols-1 md:grid-cols-2 gap-10 items-start text-white">
+    
+    <!-- Left Side (Image + Paintings) -->
     <div>
       <img id="artist-image" class="w-full h-auto rounded-lg shadow-lg mb-6" />
       <div id="artist-paintings" class="grid grid-cols-2 sm:grid-cols-3 gap-4"></div>
     </div>
 
+    <!-- Right Side (Text Info) -->
     <div class="space-y-6">
       <h1 id="artist-name" class="text-3xl sm:text-4xl font-bold uppercase"></h1>
       <p id="artist-title" class="text-xl text-white-400 font-regular"></p>
+      
+      <!-- 🔽 Bio Container: changed from <p> to <div> -->
       <div id="artist-bio" class="space-y-4 text-sm sm:text-base leading-relaxed text-gray-200"></div>
 
-      <a href="#" id="whatsapp-link"
+      <a href="#" id="whatsapp-link" 
          class="inline-block bg-green-500 text-white px-6 py-3 rounded-full shadow-lg hover:bg-green-600 transition">
         💬 Chat With Us
       </a>
     </div>
   </div>
 
+  <!-- 🔽 Load footer here -->
   <div id="footer" class="mt-10"></div>
 
+  <!-- 🔍 Image Zoom Modal -->
   <div id="image-modal" class="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50 hidden">
     <div class="relative max-w-3xl w-full">
       <button id="close-modal" class="absolute top-2 right-2 bg-white text-black rounded-full px-3 py-1 font-bold text-lg hover:bg-gray-200">×</button>
@@ -45,27 +58,45 @@
     </div>
   </div>
 
+  <!-- ✅ JavaScript -->
   <script>
     window.addEventListener('DOMContentLoaded', () => {
-      // Load header and footer
-      fetch('/header.html')
+      // Load header.html
+      fetch('header.html')
         .then(res => res.text())
         .then(data => document.getElementById('header').innerHTML = data);
-      fetch('/footer.html')
+
+      // Load footer.html
+      fetch('footer.html')
         .then(res => res.text())
         .then(data => document.getElementById('footer').innerHTML = data);
 
-      // Get slug from URL path: /artist/jangarh-singh-shyam
-      const pathParts = window.location.pathname.split("/");
-      const slug = pathParts[pathParts.length - 1];
+      // Get artist from URL
+      const params = new URLSearchParams(window.location.search);
+      const rawName = params.get("name");
 
-      const artist = Object.values(artists).find(a => a.slug === slug);
+      if (!rawName) {
+        document.getElementById("artist-container").innerHTML =
+          "<p class='text-red-500'>No artist specified in URL.</p>";
+        return;
+      }
+
+      const artistKey = decodeURIComponent(rawName).toUpperCase();
+
+      // Normalize keys
+      const normalizedArtists = {};
+      for (const key in artists) {
+        normalizedArtists[key.toUpperCase()] = artists[key];
+      }
+
+      const artist = normalizedArtists[artistKey];
 
       if (artist) {
         document.getElementById("artist-name").textContent = artist.name;
         document.getElementById("artist-image").src = artist.image;
         document.getElementById("artist-title").textContent = artist.title || "Renowned Tribal Artist";
 
+        // ✅ Updated to handle multiple bio paragraphs
         const bioContainer = document.getElementById("artist-bio");
         bioContainer.innerHTML = "";
         if (Array.isArray(artist.bio)) {
@@ -80,8 +111,11 @@
           bioContainer.appendChild(p);
         }
 
-        document.getElementById("whatsapp-link").href = `https://wa.me/919818675784?text=${encodeURIComponent("Hi, I want to know more about " + artist.name)}`;
+        // WhatsApp
+        const whatsappMessage = `Hi, I want to know more about ${artist.name}`;
+        document.getElementById("whatsapp-link").href = `https://wa.me/919818675784?text=${encodeURIComponent(whatsappMessage)}`;
 
+        // Paintings
         const container = document.getElementById("artist-paintings");
         if (artist.paintings) {
           artist.paintings.forEach((painting) => {
@@ -97,12 +131,16 @@
           });
         }
       } else {
-        document.getElementById("artist-container").innerHTML = `<p class='text-red-500'>Artist not found in URL.</p>`;
+        document.getElementById("artist-container").innerHTML = `
+          <p class='text-red-500'>Artist "<strong>${artistKey}</strong>" not found.</p>
+        `;
       }
 
+      // Close modal
       document.getElementById("close-modal").addEventListener("click", () => {
         document.getElementById("image-modal").classList.add("hidden");
       });
+
       document.getElementById("image-modal").addEventListener("click", (e) => {
         if (e.target.id === "image-modal") {
           document.getElementById("image-modal").classList.add("hidden");

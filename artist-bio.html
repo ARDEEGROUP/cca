@@ -8,78 +8,83 @@
     <script src="js/menu.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="image/png" href="images/fav.png" />
+    
+     <style>
+     @import url('https://fonts.cdnfonts.com/css/futura-pt');
+  </style>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z5WGFXNLZN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    <style>
-      @import url('https://fonts.cdnfonts.com/css/futura-pt');
-    </style>
+  gtag('config', 'G-Z5WGFXNLZN');
+</script>
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z5WGFXNLZN"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-Z5WGFXNLZN');
-    </script>
   </head>
   <body class="bg-black">
     <div id="header"></div>
-
     <!-- 🔙 Back Link -->
-    <div class="max-w-6xl mx-auto px-4 sm:px-8 mt-8">
-      <a href="/artist" class="text-white text-sm sm:text-base hover:underline">&larr; Back to Artist Collections</a>
-    </div>
+  <div class="max-w-6xl mx-auto px-4 sm:px-8 mt-8">
+    <a href="/artist" class="text-white text-sm sm:text-base hover:underline">&larr; Back to Artist Collections</a>
+  </div>
 
     <div class="text-[48px] mt-20 mb-5 text-white text-center">Represented Artists</div>
 
     <!-- Artist Categories Column -->
-    <div class="flex flex-col items-center gap-4 text-center uppercase text-[18px] tracking-wide text-white mt-10 mb-20">
-      <a href="/artist/jangarh-singh-shyam" class="hover:bg-white hover:text-black transition rounded px-2">Jangarh Singh Shyam</a>
-      <a href="/artist/jodhaiya-bai-baiga" class="hover:bg-white hover:text-black transition rounded px-2">Jodhaiya Bai Baiga</a>
-      <a href="/artist/santosh-kumar-das" class="hover:bg-white hover:text-black transition rounded px-2">Santosh Kumar Das</a>
-      <a href="/artist/pema-fatya" class="hover:bg-white hover:text-black transition rounded px-2">Pema Fatya</a>
-      <a href="/artist/baua-devi" class="hover:bg-white hover:text-black transition rounded px-2">Baua Devi</a>
-      <a href="/artist/bhuri-bai" class="hover:bg-white hover:text-black transition rounded px-2">Bhuri Bai</a>
-      <a href="/artist/narmada-prasad-tekam" class="hover:bg-white hover:text-black transition rounded px-2">Narmada Prasad Tekam</a>
-      <a href="/artist/venkat-raman-singh-shyam" class="hover:bg-white hover:text-black transition rounded px-2">Venkat Raman Singh Shyam</a>
-      <a href="/artist/durga-bai-vyam" class="hover:bg-white hover:text-black transition rounded px-2">Durga Bai Vyom</a>
-      <a href="/artist/ganga-devi-bhatt" class="hover:bg-white hover:text-black transition rounded px-2">Ganga Devi Bhatt</a>
-      <a href="/artist/japani-shyam" class="hover:bg-white hover:text-black transition rounded px-2">Japani Shyam</a>
-      <a href="/artist/lado-bai" class="hover:bg-white hover:text-black transition rounded px-2">Lado Bai</a>
-      <a href="/artist/mangala-bai-maravi" class="hover:bg-white hover:text-black transition rounded px-2">Mangala Bai Maravi</a>
-      <a href="/artist/amit-dombhare" class="hover:bg-white hover:text-black transition rounded px-2">Amit Dombhare</a>
-      <a href="/artist/bhajju-shyam" class="hover:bg-white hover:text-black transition rounded px-2">Bhajju Shyam</a>
-      <a href="/artist/sangita-jogi" class="hover:bg-white hover:text-black transition rounded px-2">Sangita Jogi</a>
-      <a href="/artist/manoj-tekam" class="hover:bg-white hover:text-black transition rounded px-2">Manoj Tekam</a>
-      <a href="/artist/yashpal-baranda" class="hover:bg-white hover:text-black transition rounded px-2">Yashpal Baranda</a>
-    </div>
+   <div class="flex flex-col items-center gap-4 text-center uppercase  text-[18px] tracking-wide text-white mt-10 mb-20">
+  <a href="/artist-detail?name=JANGARH%20SINGH%20SHYAM" class="hover:bg-white hover:text-black transition rounded px-2">Jangarh Singh Shyam</a>
+  <a href="/artist-detail?name=JODHAIYA%20BAI%20BAIGA" class="hover:bg-white hover:text-black transition rounded px-2">Jodhaiya Bai Baiga</a>
+  <a href="/artist-detail?name=SANTOSH" class="hover:bg-white hover:text-black transition rounded px-2">Santosh KUMAR DAS</a>
+  <a href="/artist-detail?name=PEMA" class="hover:bg-white hover:text-black transition rounded px-2">Pema FATYA</a>
+  <a href="/artist-detail?name=BAUA%20DEVI" class="hover:bg-white hover:text-black transition rounded px-2">Baua Devi</a>
+  <a href="/artist-detail?name=BHURI%20BAI" class="hover:bg-white hover:text-black transition rounded px-2">Bhuri Bai</a>
+  <a href="/artist-detail?name=NARMADA" class="hover:bg-white hover:text-black transition rounded px-2">Narmada PRASAD TEKAM</a>
+  <a href="/artist-detail?name=VENKAT%20RAMAN%20SINGH%20SHYAM" class="hover:bg-white hover:text-black transition rounded px-2">Venkat Raman Singh Shyam</a>
+  <a href="/artist-detail?name=DURGA%20BAI%20VYAM" class="hover:bg-white hover:text-black transition rounded px-2">Durga Bai Vyom</a>
+  <a href="/artist-detail?name=GANGA%20DEVI%20BHATT" class="hover:bg-white hover:text-black transition rounded px-2">Ganga Devi Bhatt</a>
+  <a href="/artist-detail?name=JAPANI%20SHYAM" class="hover:bg-white hover:text-black transition rounded px-2">Japani Shyam</a>
+  <a href="/artist-detail?name=LADO%20BAI" class="hover:bg-white hover:text-black transition rounded px-2">Lado Bai</a>
+  <a href="/artist-detail?name=MANGALA%20BAI%20MARAVI" class="hover:bg-white hover:text-black transition rounded px-2">Mangala Bai Maravi</a>
+  <a href="/artist-detail?name=AMIT%20DOMBHARE" class="hover:bg-white hover:text-black transition rounded px-2">Amit Dombhare</a>
+  <a href="/artist-detail?name=BHAJJU%20SHYAM" class="hover:bg-white hover:text-black transition rounded px-2">Bhajju Shyam</a>
+  <!--<a href="artist-detail.html?name=DHAVAT%20SINGH" class="hover:bg-white hover:text-black transition rounded px-2">Dhavat Singh</a>-->
+  <a href="/artist-detail?name=SANGITA%20JOGI" class="hover:bg-white hover:text-black transition rounded px-2">Sangita Jogi</a>
+  <a href="/artist-detail?name=MANOJ%20TEKAM" class="hover:bg-white hover:text-black transition rounded px-2">Manoj Tekam</a>
+  <a href="/artist-detail?name=YASHPAL%20BARANDA" class="hover:bg-white hover:text-black transition rounded px-2">Yashpal Baranda</a>
+</div>
+
 
     <div id="footer"></div>
 
     <script>
-      // Load header.html
-      fetch("header.html")
-        .then(res => res.text())
-        .then(data => {
-          document.getElementById("header").innerHTML = data;
-          const script = document.createElement("script");
-          script.src = "js/menu.js";
-          script.onload = () => {
-            if (typeof setupMenuToggle === "function") {
-              setupMenuToggle();
-            }
-          };
-          document.body.appendChild(script);
-        })
-        .catch(error => console.error("Error loading header:", error));
+  // Load header.html
+  fetch("header.html")
+    .then(res => res.text())
+    .then(data => {
+      document.getElementById("header").innerHTML = data;
 
-      // Load footer.html
-      fetch("footer.html")
-        .then(res => res.text())
-        .then(data => {
-          document.getElementById("footer").innerHTML = data;
-        })
-        .catch(error => console.error("Error loading footer:", error));
-    </script>
+      // Load and run menu.js AFTER header is inserted
+      const script = document.createElement("script");
+      script.src = "js/menu.js";
+      script.onload = () => {
+        if (typeof setupMenuToggle === "function") {
+          setupMenuToggle(); // call function safely
+        }
+      };
+      document.body.appendChild(script);
+    })
+    .catch(error => console.error("Error loading header:", error));
+
+  // ✅ Load footer.html independently
+  fetch("footer.html")
+    .then(res => res.text())
+    .then(data => {
+      document.getElementById("footer").innerHTML = data;
+    })
+    .catch(error => console.error("Error loading footer:", error));
+</script>
+
   </body>
 </html>
