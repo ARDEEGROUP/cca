@@ -12,7 +12,7 @@
     { "source": "/senior-artists-bio", "destination": "/senior-artists-bio.html" },
     { "source": "/emerging-artist-detail", "destination": "/emerging-artist-detail.html" },
     { "source": "/emerging-artist-bio", "destination": "/emerging-artist-bio.html" },
-    { "source": "/artist/:slug", "destination": "/artist-detail.html" },
+    { "source": "/artist/:slug", "destination": "/artist-detail.html" },  // ✅ This is the key rule
     { "source": "/artist-bio", "destination": "/artist-bio.html" },
     { "source": "/enquireform", "destination": "/enquireform.html" },
     { "source": "/media", "destination": "/media.html" },
