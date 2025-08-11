@@ -153,16 +153,16 @@ const artists = {
   "DHAVAT SINGH": {
     name: "DHAVAT SINGH",
     title: "Circa 1990s, Madhya Pradesh, India",
-    image: "images/dhaone.jpeg",
+    image: "images/dhatwo.jpg",
     bio: [
       "An engineer by education but an artist at heart, Dhavat Singh found his true calling in the intricate patterns and rich storytelling of Gond art. Growing up in a village where evenings were filled with elders’ voices weaving folk tales of animals, spirits, and the forest, Dhavat absorbed a world where every tree had a soul and every creature a story.",
 "Although he trained as an engineer, the pull of his heritage proved stronger than the lure of a conventional career. Dhavat began translating the stories he grew up with into his paintings, expanding the vocabulary of Gond art while staying rooted in its essence. His works combine the rhythmic lines and dot patterns of the tradition with fresh compositions that push its boundaries, allowing myth and memory to meet a contemporary sensibility.",
 "Through his art, Dhavat Singh not only preserves the oral narratives of his community but also reimagines them, offering viewers a bridge between ancestral wisdom and the modern world.",
-     "1. In this striking black-and-white Gond artwork, Dhavat Singh captures the raw power and regal presence of a lion mid-leap. The creature’s face, with its intense, direct gaze, commands the viewer’s attention, while the flowing mane radiates outward in intricate, rhythmic strokes. The lion’s body is covered in meticulously rendered textures that suggest scales, a stylized departure from naturalism, adding a mythical quality to the beast. The dynamic curve of the tail and the forward motion of the paws convey energy and vitality, turning the canvas into a moment frozen between the hunt and the triumph.",
-     "2. This surreal and symbolic work blends the ferocity of a tiger with the visage of a human, resulting in a creature that is both unsettling and captivating. The tiger’s body is marked with bold, flowing stripes, while the face—adorned with earrings, a protruding tongue, and exaggerated features—invokes the imagery of folk deities and protective spirits. Beneath the tiger lie two intricately textured animals, perhaps its prey, depicted with a calm stillness that contrasts the looming, almost divine predator above. The composition draws on Gond tradition’s ability to merge myth, nature, and storytelling, transforming the tiger into a figure of power, danger, and spiritual significance.",
+     "1. This surreal and symbolic work blends the ferocity of a tiger with the visage of a human, resulting in a creature that is both unsettling and captivating. The tiger’s body is marked with bold, flowing stripes, while the face—adorned with earrings, a protruding tongue, and exaggerated features—invokes the imagery of folk deities and protective spirits. Beneath the tiger lie two intricately textured animals, perhaps its prey, depicted with a calm stillness that contrasts the looming, almost divine predator above. The composition draws on Gond tradition’s ability to merge myth, nature, and storytelling, transforming the tiger into a figure of power, danger, and spiritual significance. ",
+     "2. In this striking black-and-white Gond artwork, Dhavat Singh captures the raw power and regal presence of a lion mid-leap. The creature’s face, with its intense, direct gaze, commands the viewer’s attention, while the flowing mane radiates outward in intricate, rhythmic strokes. The lion’s body is covered in meticulously rendered textures that suggest scales, a stylized departure from naturalism, adding a mythical quality to the beast. The dynamic curve of the tail and the forward motion of the paws convey energy and vitality, turning the canvas into a moment frozen between the hunt and the triumph.",
 
     ],
-    paintings: ["images/dhatwo.jpg",]
+    paintings: ["images/dhaone.jpeg",]
   },
 
   "SANGITA JOGI": {
