@@ -153,14 +153,16 @@ const artists = {
   "DHAVAT SINGH": {
     name: "DHAVAT SINGH",
     title: "Circa 1990s, Madhya Pradesh, India",
-    image: "images/dhaone.png",
+    image: "images/dhaone.jpeg",
     bio: [
-      "Young and passionate, Dhavat Singh grew up watching his elders paint and perform rituals. He took that visual language and made it his own, infusing it with bold colors and new forms. His art reflects a changing tribal world—still connected to the forest, but also facing roads, mobile phones, and outside influences. With each canvas, Dhavat celebrates the vitality of Bhil identity in a time of transformation.",
-     "1. This artwork presents a majestic tiger in mid-motion, coiled yet graceful, rendered in a striking black-and-white palette. Using fine stippling and textured strokes, Dhavat Singh stylizes the tiger’s stripes and form with remarkable elegance. The tiger here is not just an animal but a powerful symbol—of pride, fear, and balance in tribal lore. The minimalism of the composition emphasizes the creature’s strength and mystique, transforming it into an emblem of the forest’s spirit and presence.",
-     "2. In this intricate pen-and-ink drawing, Dhavat Singh creates a mythical forest teeming with life—animals, birds, and humans all coexist in a sprawling tree of life. At its center sits a stylized tiger with bold, concentric stripes, symbolizing both danger and guardianship. The tree becomes a living world with homes nestled in its branches and everyday scenes unfolding—women carrying pots, animals feeding, and children playing. Through fine dot-work and rhythmic line patterns, Singh captures the pulse of rural life and the harmonious interdependence between nature and community.",
+      "An engineer by education but an artist at heart, Dhavat Singh found his true calling in the intricate patterns and rich storytelling of Gond art. Growing up in a village where evenings were filled with elders’ voices weaving folk tales of animals, spirits, and the forest, Dhavat absorbed a world where every tree had a soul and every creature a story.",
+"Although he trained as an engineer, the pull of his heritage proved stronger than the lure of a conventional career. Dhavat began translating the stories he grew up with into his paintings, expanding the vocabulary of Gond art while staying rooted in its essence. His works combine the rhythmic lines and dot patterns of the tradition with fresh compositions that push its boundaries, allowing myth and memory to meet a contemporary sensibility.",
+"Through his art, Dhavat Singh not only preserves the oral narratives of his community but also reimagines them, offering viewers a bridge between ancestral wisdom and the modern world.",
+     "1. In this striking black-and-white Gond artwork, Dhavat Singh captures the raw power and regal presence of a lion mid-leap. The creature’s face, with its intense, direct gaze, commands the viewer’s attention, while the flowing mane radiates outward in intricate, rhythmic strokes. The lion’s body is covered in meticulously rendered textures that suggest scales, a stylized departure from naturalism, adding a mythical quality to the beast. The dynamic curve of the tail and the forward motion of the paws convey energy and vitality, turning the canvas into a moment frozen between the hunt and the triumph.",
+     "2. This surreal and symbolic work blends the ferocity of a tiger with the visage of a human, resulting in a creature that is both unsettling and captivating. The tiger’s body is marked with bold, flowing stripes, while the face—adorned with earrings, a protruding tongue, and exaggerated features—invokes the imagery of folk deities and protective spirits. Beneath the tiger lie two intricately textured animals, perhaps its prey, depicted with a calm stillness that contrasts the looming, almost divine predator above. The composition draws on Gond tradition’s ability to merge myth, nature, and storytelling, transforming the tiger into a figure of power, danger, and spiritual significance.",
 
     ],
-    paintings: ["images/dhatwo.png",]
+    paintings: ["images/dhatwo.jpeg",]
   },
 
   "SANGITA JOGI": {
