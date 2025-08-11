@@ -162,7 +162,7 @@ const artists = {
      "2. This surreal and symbolic work blends the ferocity of a tiger with the visage of a human, resulting in a creature that is both unsettling and captivating. The tiger’s body is marked with bold, flowing stripes, while the face—adorned with earrings, a protruding tongue, and exaggerated features—invokes the imagery of folk deities and protective spirits. Beneath the tiger lie two intricately textured animals, perhaps its prey, depicted with a calm stillness that contrasts the looming, almost divine predator above. The composition draws on Gond tradition’s ability to merge myth, nature, and storytelling, transforming the tiger into a figure of power, danger, and spiritual significance.",
 
     ],
-    paintings: ["images/dhatwo.jpeg",]
+    paintings: ["images/dhatwo.jpg",]
   },
 
   "SANGITA JOGI": {
